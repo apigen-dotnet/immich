@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Frank Hommers</Authors>
+    <Company>Initialize.nl</Company>
+    <Copyright>Copyright (c) Frank Hommers / Initialize.nl</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/apigen-dotnet/immich</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/apigen-dotnet/immich</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Apigen.Immich.Models'">
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Apigen.Immich.Client'">
+    <PackageId>Apigen.Immich.Client</PackageId>
+    <Version>2.6.2</Version>
+    <Description>Generated C# client for the Immich photo management API</Description>
+    <PackageTags>immich;api;client;openapi;apigen;photos</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(MSBuildProjectName)' == 'Apigen.Immich.Client'">
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>

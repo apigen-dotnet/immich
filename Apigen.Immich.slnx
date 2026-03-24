@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Apigen.Immich.Client/Apigen.Immich.Client.csproj" />
+    <Project Path="src/Apigen.Immich.Models/Apigen.Immich.Models.csproj" />
+  </Folder>
+</Solution>
