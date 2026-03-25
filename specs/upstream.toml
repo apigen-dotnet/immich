@@ -1,0 +1,3 @@
+enabled = true
+url = "https://raw.githubusercontent.com/immich-app/immich/main/open-api/immich-openapi-specs.json"
+target = "specs/immich.json"
