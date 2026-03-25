@@ -17,10 +17,10 @@
     <Version>2.6.2</Version>
     <Description>Generated C# client for the Immich photo management API</Description>
     <PackageTags>immich;api;client;openapi;apigen;photos</PackageTags>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>NUGET.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(MSBuildProjectName)' == 'Apigen.Immich.Client'">
-    <None Include="../../README.md" Pack="true" PackagePath="/" />
+    <None Include="../../NUGET.md" Pack="true" PackagePath="/" />
   </ItemGroup>
 </Project>
