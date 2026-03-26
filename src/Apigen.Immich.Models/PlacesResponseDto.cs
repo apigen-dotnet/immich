@@ -30,13 +30,13 @@ public class PlacesResponseDto
   /// Administrative level 1 name (state/province)
   /// </summary>
   [System.Text.Json.Serialization.JsonPropertyName("admin1name")]
-  public string? Admin1name { get; set; }
+  public string? Admin1Name { get; set; }
 
   /// <summary>
   /// Administrative level 2 name (county/district)
   /// </summary>
   [System.Text.Json.Serialization.JsonPropertyName("admin2name")]
-  public string? Admin2name { get; set; }
+  public string? Admin2Name { get; set; }
 
   /// <summary>
   /// Latitude coordinate

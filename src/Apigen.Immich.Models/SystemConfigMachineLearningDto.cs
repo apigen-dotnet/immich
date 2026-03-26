@@ -32,7 +32,7 @@ public class SystemConfigMachineLearningDto
 
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("clip")]
-  public CLIPConfig Clip { get; set; } = null!;
+  public ClipConfig Clip { get; set; } = null!;
 
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("duplicateDetection")]

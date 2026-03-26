@@ -10,11 +10,11 @@ namespace Apigen.Immich.Models;
 public enum AssetTypeEnum
 {
     [JsonStringEnumMemberName("IMAGE")]
-    IMAGE,
+    Image,
     [JsonStringEnumMemberName("VIDEO")]
-    VIDEO,
+    Video,
     [JsonStringEnumMemberName("AUDIO")]
-    AUDIO,
+    Audio,
     [JsonStringEnumMemberName("OTHER")]
-    OTHER,
+    Other,
 }

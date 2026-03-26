@@ -10,7 +10,7 @@ namespace Apigen.Immich.Models;
 public enum SharedLinkType
 {
     [JsonStringEnumMemberName("ALBUM")]
-    ALBUM,
+    Album,
     [JsonStringEnumMemberName("INDIVIDUAL")]
-    INDIVIDUAL,
+    Individual,
 }
