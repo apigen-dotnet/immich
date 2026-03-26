@@ -27,5 +27,5 @@ namespace Apigen.Immich.Models;
 public class DatabaseBackupUploadDto
 {
   [System.Text.Json.Serialization.JsonPropertyName("file")]
-  public byte[] File { get; set; }
+  public byte[]? File { get; set; }
 }

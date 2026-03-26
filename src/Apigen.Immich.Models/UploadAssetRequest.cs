@@ -103,7 +103,7 @@ public class UploadAssetRequest
   /// </summary>
   [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull)]
   [System.Text.Json.Serialization.JsonPropertyName("sidecarData")]
-  public byte[] SidecarData { get; set; }
+  public byte[]? SidecarData { get; set; }
 
   /// <summary>
   /// Asset visibility

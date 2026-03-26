@@ -95,7 +95,7 @@ public class AssetMediaCreateDto
   /// Sidecar file data
   /// </summary>
   [System.Text.Json.Serialization.JsonPropertyName("sidecarData")]
-  public byte[] SidecarData { get; set; }
+  public byte[]? SidecarData { get; set; }
 
   /// <summary>
   /// Asset visibility

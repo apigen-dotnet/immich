@@ -28,5 +28,5 @@ public class UploadDatabaseBackupRequest
 {
   [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull)]
   [System.Text.Json.Serialization.JsonPropertyName("file")]
-  public byte[] File { get; set; }
+  public byte[]? File { get; set; }
 }
