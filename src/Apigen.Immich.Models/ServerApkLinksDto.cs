@@ -31,14 +31,14 @@ public class ServerApkLinksDto
   /// </summary>
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("arm64v8a")]
-  public string? Arm64V8A { get; set; }
+  public string? Arm64v8a { get; set; }
 
   /// <summary>
   /// APK download link for ARM EABI v7a architecture
   /// </summary>
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("armeabiv7a")]
-  public string? Armeabiv7A { get; set; }
+  public string? Armeabiv7a { get; set; }
 
   /// <summary>
   /// APK download link for universal architecture
