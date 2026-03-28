@@ -52,5 +52,5 @@ public class ServerApkLinksDto
   /// </summary>
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("x86_64")]
-  public string? X8664 { get; set; }
+  public string? X86_64 { get; set; }
 }

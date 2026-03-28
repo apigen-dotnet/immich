@@ -43,6 +43,9 @@ include_base_classes = true
 [client.authentication]
 token_header = "x-api-key"
 
+[naming]
+overrides = { "arm64v8a" = "Arm64v8a", "armeabiv7a" = "Armeabiv7a", "x86_64" = "X86_64" }
+
 [formatting]
 use_spaces = true
 indent_width = 2
