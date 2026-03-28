@@ -18,5 +18,5 @@ public enum AudioCodec
     [JsonStringEnumMemberName("opus")]
     Opus,
     [JsonStringEnumMemberName("pcm_s16le")]
-    PcmS16le,
+    PcmS16Le,
 }
