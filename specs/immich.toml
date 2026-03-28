@@ -1,4 +1,3 @@
-input_path = "specs/immich.json"
 output_path = "src"
 target_framework = "net10.0"
 generate_nullable_reference_types = true
@@ -7,6 +6,10 @@ generate_data_annotations = true
 global_usings = [
     "System.Text.Json.Serialization"
 ]
+
+[[specs]]
+path = "specs/immich.json"
+path_prefix = ""
 
 [models]
 namespace = "Apigen.Immich.Models"
