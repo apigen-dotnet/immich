@@ -14,7 +14,7 @@
 
   <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Apigen.Immich.Client'">
     <PackageId>Apigen.Immich.Client</PackageId>
-    <Version>2.6.7</Version>
+    <Version>2.6.8</Version>
     <Description>Generated C# client for the Immich photo management API</Description>
     <PackageTags>immich;api;client;openapi;apigen;photos</PackageTags>
     <PackageReadmeFile>NUGET.md</PackageReadmeFile>
