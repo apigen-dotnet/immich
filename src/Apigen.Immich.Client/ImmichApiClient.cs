@@ -310,7 +310,7 @@ public class ImmichApiClient
   }
 
   /// <summary>
-  /// Create client with API key authentication
+  /// Create client with x-api-key authentication
   /// </summary>
   public static ImmichApiClient WithApiKey(string apiKey, string baseUrl = "/api", ILogger? logger = null)
   {
