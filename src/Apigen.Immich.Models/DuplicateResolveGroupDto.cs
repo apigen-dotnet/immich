@@ -21,29 +21,26 @@ using System.Text.Json.Serialization;
 namespace Apigen.Immich.Models;
 
 /// <summary>
-/// AssetMetadataBulkUpsertItemDto from OpenAPI schema.
-/// Schema path: #/components/schemas/AssetMetadataBulkUpsertItemDto
+/// DuplicateResolveGroupDto from OpenAPI schema.
+/// Schema path: #/components/schemas/DuplicateResolveGroupDto
 /// </summary>
-public class AssetMetadataBulkUpsertItemDto
+public class DuplicateResolveGroupDto
 {
-  /// <summary>
-  /// Asset ID
-  /// </summary>
   [Required]
-  [System.Text.Json.Serialization.JsonPropertyName("assetId")]
-  public Guid AssetId { get; set; }
+  [System.Text.Json.Serialization.JsonPropertyName("duplicateId")]
+  public Guid DuplicateId { get; set; }
 
   /// <summary>
-  /// Metadata key
+  /// Asset IDs to keep
   /// </summary>
   [Required]
-  [System.Text.Json.Serialization.JsonPropertyName("key")]
-  public string? Key { get; set; }
+  [System.Text.Json.Serialization.JsonPropertyName("keepAssetIds")]
+  public List<Guid>? KeepAssetIds { get; set; }
 
   /// <summary>
-  /// Metadata value (object)
+  /// Asset IDs to trash or delete
   /// </summary>
   [Required]
-  [System.Text.Json.Serialization.JsonPropertyName("value")]
-  public object? Value { get; set; }
+  [System.Text.Json.Serialization.JsonPropertyName("trashAssetIds")]
+  public List<Guid>? TrashAssetIds { get; set; }
 }

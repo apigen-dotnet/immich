@@ -86,6 +86,42 @@ public class DuplicatesClient
 
 
   /// <summary>
+  /// Resolve duplicate groups
+  /// Operation: POST /duplicates/resolve
+  /// </summary>
+  public async Task<List<BulkIdResponseDto>> ResolveDuplicatesAsync(Apigen.Immich.Models.DuplicateResolveDto duplicateResolveDto)
+  {
+    string url = "duplicates/resolve";
+
+    long startTimestamp = System.Diagnostics.Stopwatch.GetTimestamp();
+    HttpClientLog.LogDebugRequestStarted(_logger, "POST", url);
+    string json = JsonSerializer.Serialize(duplicateResolveDto, JsonConfig.Default);
+    HttpClientLog.LogTraceRequestBody(_logger, "POST", "application/json", json);
+    StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+    HttpResponseMessage response = await _httpClient.PostAsync(url, content);
+    long durationMs = (long)System.Diagnostics.Stopwatch.GetElapsedTime(startTimestamp).TotalMilliseconds;
+    HttpClientLog.LogDebugRequestCompleted(_logger, (int)response.StatusCode, "POST", url, durationMs);
+
+    string responseContent;
+    try
+    {
+      response.EnsureSuccessStatusCode();
+      responseContent = await response.Content.ReadAsStringAsync();
+    }
+    catch (HttpRequestException ex)
+    {
+      responseContent = await response.Content.ReadAsStringAsync();
+      HttpClientLog.LogErrorRequestFailed(_logger, (int)response.StatusCode, "POST", url, responseContent, ex);
+      throw;
+    }
+
+    HttpClientLog.LogTraceResponseBody(_logger, url, responseContent);
+    List<BulkIdResponseDto>? result = JsonSerializer.Deserialize<List<BulkIdResponseDto>>(responseContent, JsonConfig.Default);
+    return result ?? new List<BulkIdResponseDto>();
+  }
+
+
+  /// <summary>
   /// Delete a duplicate
   /// Operation: DELETE /duplicates/{id}
   /// </summary>

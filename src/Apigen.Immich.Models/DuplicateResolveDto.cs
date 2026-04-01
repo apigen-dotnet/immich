@@ -21,25 +21,15 @@ using System.Text.Json.Serialization;
 namespace Apigen.Immich.Models;
 
 /// <summary>
-/// SystemConfigMapDto from OpenAPI schema.
-/// Schema path: #/components/schemas/SystemConfigMapDto
+/// DuplicateResolveDto from OpenAPI schema.
+/// Schema path: #/components/schemas/DuplicateResolveDto
 /// </summary>
-public class SystemConfigMapDto
+public class DuplicateResolveDto
 {
-  [Required]
-  [Url]
-  [System.Text.Json.Serialization.JsonPropertyName("darkStyle")]
-  public string? DarkStyle { get; set; }
-
   /// <summary>
-  /// Enabled
+  /// List of duplicate groups to resolve
   /// </summary>
   [Required]
-  [System.Text.Json.Serialization.JsonPropertyName("enabled")]
-  public bool Enabled { get; set; }
-
-  [Required]
-  [Url]
-  [System.Text.Json.Serialization.JsonPropertyName("lightStyle")]
-  public string? LightStyle { get; set; }
+  [System.Text.Json.Serialization.JsonPropertyName("groups")]
+  public List<DuplicateResolveGroupDto>? Groups { get; set; }
 }

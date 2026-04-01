@@ -24,6 +24,12 @@ public interface IDuplicatesClient
   Task<List<DuplicateResponseDto>> GetAssetDuplicatesAsync();
 
   /// <summary>
+  /// Resolve duplicate groups
+  /// Operation: POST /duplicates/resolve
+  /// </summary>
+  Task<List<BulkIdResponseDto>> ResolveDuplicatesAsync(Apigen.Immich.Models.DuplicateResolveDto duplicateResolveDto);
+
+  /// <summary>
   /// Delete a duplicate
   /// Operation: DELETE /duplicates/{id}
   /// </summary>

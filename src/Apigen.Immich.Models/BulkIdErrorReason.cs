@@ -17,4 +17,6 @@ public enum BulkIdErrorReason
     NotFound,
     [JsonStringEnumMemberName("unknown")]
     Unknown,
+    [JsonStringEnumMemberName("validation")]
+    Validation,
 }
