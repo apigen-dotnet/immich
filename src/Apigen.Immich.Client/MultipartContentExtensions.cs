@@ -1,56 +1,64 @@
 using System.Net.Http;
-using System.Reflection;
-using System.Text.Json.Serialization;
+using System.Text.Json;
+using Apigen.Immich.Models;
 
 namespace Apigen.Immich.Client;
 
 internal static class MultipartContentExtensions
 {
-  /// <summary>
-  /// Converts a DTO object to MultipartFormDataContent for file upload endpoints.
-  /// Properties of type byte[] are added as file content, all others as string fields.
-  /// Uses JsonPropertyName attribute for field names.
-  /// </summary>
-  public static MultipartFormDataContent ToMultipartContent(this object dto)
+  public static MultipartFormDataContent ToMultipartContent(this Apigen.Immich.Models.DatabaseBackupUploadDto databaseBackupUploadDto)
   {
     MultipartFormDataContent content = new();
-
-    foreach (PropertyInfo prop in dto.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance))
+    if (databaseBackupUploadDto.File != null)
     {
-      object? value = prop.GetValue(dto);
-      if (value == null) continue;
-
-      // Use JsonPropertyName attribute for the field name, fall back to property name
-      string fieldName = prop.GetCustomAttribute<JsonPropertyNameAttribute>()?.Name ?? prop.Name;
-
-      if (value is byte[] bytes)
-      {
-        ByteArrayContent fileContent = new(bytes);
-        content.Add(fileContent, fieldName, fieldName);
-      }
-      else if (value is Stream stream)
-      {
-        StreamContent streamContent = new(stream);
-        content.Add(streamContent, fieldName, fieldName);
-      }
-      else if (value is bool boolValue)
-      {
-        content.Add(new StringContent(boolValue.ToString().ToLowerInvariant()), fieldName);
-      }
-      else if (value is DateTime dateTime)
-      {
-        content.Add(new StringContent(dateTime.ToString("O")), fieldName);
-      }
-      else if (value is DateTimeOffset dateTimeOffset)
-      {
-        content.Add(new StringContent(dateTimeOffset.ToString("O")), fieldName);
-      }
-      else
-      {
-        content.Add(new StringContent(value.ToString() ?? ""), fieldName);
-      }
+      content.Add(new ByteArrayContent(databaseBackupUploadDto.File), "file", "file.bin");
     }
-
+    return content;
+  }
+  public static MultipartFormDataContent ToMultipartContent(this Apigen.Immich.Models.AssetMediaCreateDto assetMediaCreateDto)
+  {
+    MultipartFormDataContent content = new();
+    content.Add(new ByteArrayContent(assetMediaCreateDto.AssetData), "assetData", assetMediaCreateDto.Filename ?? "assetData.bin");
+    if (assetMediaCreateDto.DeviceAssetId != null)
+      content.Add(new StringContent(assetMediaCreateDto.DeviceAssetId), "deviceAssetId");
+    if (assetMediaCreateDto.DeviceId != null)
+      content.Add(new StringContent(assetMediaCreateDto.DeviceId), "deviceId");
+    if (assetMediaCreateDto.Duration != null)
+      content.Add(new StringContent(assetMediaCreateDto.Duration), "duration");
+    content.Add(new StringContent(assetMediaCreateDto.FileCreatedAt.ToString("O")), "fileCreatedAt");
+    content.Add(new StringContent(assetMediaCreateDto.FileModifiedAt.ToString("O")), "fileModifiedAt");
+    if (assetMediaCreateDto.IsFavorite != null)
+      content.Add(new StringContent(assetMediaCreateDto.IsFavorite.Value.ToString().ToLowerInvariant()), "isFavorite");
+    if (assetMediaCreateDto.LivePhotoVideoId != null)
+      content.Add(new StringContent(assetMediaCreateDto.LivePhotoVideoId.Value.ToString()), "livePhotoVideoId");
+    if (assetMediaCreateDto.Metadata != null)
+      content.Add(new StringContent(JsonSerializer.Serialize(assetMediaCreateDto.Metadata, JsonConfig.Default)), "metadata");
+    if (assetMediaCreateDto.SidecarData != null)
+    {
+      content.Add(new ByteArrayContent(assetMediaCreateDto.SidecarData), "sidecarData", assetMediaCreateDto.Filename ?? "sidecarData.bin");
+    }
+    if (assetMediaCreateDto.Visibility != null)
+      content.Add(new StringContent(assetMediaCreateDto.Visibility.ToString() ?? ""), "visibility");
+    return content;
+  }
+  public static MultipartFormDataContent ToMultipartContent(this Apigen.Immich.Models.AssetMediaReplaceDto assetMediaReplaceDto)
+  {
+    MultipartFormDataContent content = new();
+    content.Add(new ByteArrayContent(assetMediaReplaceDto.AssetData), "assetData", assetMediaReplaceDto.Filename ?? "assetData.bin");
+    if (assetMediaReplaceDto.DeviceAssetId != null)
+      content.Add(new StringContent(assetMediaReplaceDto.DeviceAssetId), "deviceAssetId");
+    if (assetMediaReplaceDto.DeviceId != null)
+      content.Add(new StringContent(assetMediaReplaceDto.DeviceId), "deviceId");
+    if (assetMediaReplaceDto.Duration != null)
+      content.Add(new StringContent(assetMediaReplaceDto.Duration), "duration");
+    content.Add(new StringContent(assetMediaReplaceDto.FileCreatedAt.ToString("O")), "fileCreatedAt");
+    content.Add(new StringContent(assetMediaReplaceDto.FileModifiedAt.ToString("O")), "fileModifiedAt");
+    return content;
+  }
+  public static MultipartFormDataContent ToMultipartContent(this Apigen.Immich.Models.CreateProfileImageDto createProfileImageDto)
+  {
+    MultipartFormDataContent content = new();
+    content.Add(new ByteArrayContent(createProfileImageDto.File), "file", "file.bin");
     return content;
   }
 }
