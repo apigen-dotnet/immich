@@ -27,6 +27,14 @@ add_json_string_enum_member_name = true
 nullable_for_optional_properties = true
 ignore_condition = "WhenWritingNull"
 
+# Immich's search DTOs use `null` on nullable-in-spec location fields to mean
+# "asset has no city/country/state". We need all three semantic states (Unset,
+# Null, Value), so wrap these properties in the generic Optional<T> type.
+[[property_overrides]]
+property_filter = "^(city|country|state)$"
+model_filter = "^(RandomSearchDto|MetadataSearchDto|SmartSearchDto)$"
+use_generic_optional_type = true
+
 [client]
 generate_client = true
 namespace = "Apigen.Immich.Client"

@@ -41,14 +41,16 @@ public class MetadataSearchDto
   /// <summary>
   /// Filter by city name
   /// </summary>
+  [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]
   [System.Text.Json.Serialization.JsonPropertyName("city")]
-  public string? City { get; set; }
+  public Optional<string> City { get; set; }
 
   /// <summary>
   /// Filter by country name
   /// </summary>
+  [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]
   [System.Text.Json.Serialization.JsonPropertyName("country")]
-  public string? Country { get; set; }
+  public Optional<string> Country { get; set; }
 
   /// <summary>
   /// Filter by creation date (after)
@@ -205,8 +207,9 @@ public class MetadataSearchDto
   /// <summary>
   /// Filter by state/province name
   /// </summary>
+  [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]
   [System.Text.Json.Serialization.JsonPropertyName("state")]
-  public string? State { get; set; }
+  public Optional<string> State { get; set; }
 
   /// <summary>
   /// Filter by tag IDs
