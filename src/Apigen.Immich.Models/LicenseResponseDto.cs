@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// LicenseResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/LicenseResponseDto
 /// </summary>
-public class LicenseResponseDto
+public partial class LicenseResponseDto
 {
   /// <summary>
   /// Activation date

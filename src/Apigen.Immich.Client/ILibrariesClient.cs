@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Libraries operations
 /// </summary>
-public interface ILibrariesClient
+public partial interface ILibrariesClient
 {
   /// <summary>
   /// Retrieve libraries

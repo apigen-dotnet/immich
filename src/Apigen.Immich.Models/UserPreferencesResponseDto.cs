@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UserPreferencesResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UserPreferencesResponseDto
 /// </summary>
-public class UserPreferencesResponseDto
+public partial class UserPreferencesResponseDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("albums")]

@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve queue jobs
 /// Operation: GET /queues/{name}/jobs
 /// </summary>
-public class GetQueueJobsRequest : BaseRequest
+public partial class GetQueueJobsRequest : BaseRequest
 {
   /// <summary>
   /// Filter jobs by status

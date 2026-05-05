@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// LogoutResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/LogoutResponseDto
 /// </summary>
-public class LogoutResponseDto
+public partial class LogoutResponseDto
 {
   /// <summary>
   /// Redirect URI

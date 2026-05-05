@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SessionUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SessionUpdateDto
 /// </summary>
-public class SessionUpdateDto
+public partial class SessionUpdateDto
 {
   /// <summary>
   /// Reset pending sync state

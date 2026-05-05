@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SessionUnlockDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SessionUnlockDto
 /// </summary>
-public class SessionUnlockDto
+public partial class SessionUnlockDto
 {
   /// <summary>
   /// User password (required if PIN code is not provided)

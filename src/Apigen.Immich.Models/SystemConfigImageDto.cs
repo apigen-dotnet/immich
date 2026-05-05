@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigImageDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigImageDto
 /// </summary>
-public class SystemConfigImageDto
+public partial class SystemConfigImageDto
 {
   /// <summary>
   /// Colorspace

@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Partners operations
 /// </summary>
-public interface IPartnersClient
+public partial interface IPartnersClient
 {
   /// <summary>
   /// Retrieve partners

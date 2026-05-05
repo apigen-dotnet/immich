@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ValidateAccessTokenResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ValidateAccessTokenResponseDto
 /// </summary>
-public class ValidateAccessTokenResponseDto
+public partial class ValidateAccessTokenResponseDto
 {
   /// <summary>
   /// Authentication status

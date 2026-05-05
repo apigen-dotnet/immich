@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ExifResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ExifResponseDto
 /// </summary>
-public class ExifResponseDto
+public partial class ExifResponseDto
 {
   /// <summary>
   /// City name

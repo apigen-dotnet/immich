@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetMetadataBulkDeleteItemDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetMetadataBulkDeleteItemDto
 /// </summary>
-public class AssetMetadataBulkDeleteItemDto
+public partial class AssetMetadataBulkDeleteItemDto
 {
   /// <summary>
   /// Asset ID

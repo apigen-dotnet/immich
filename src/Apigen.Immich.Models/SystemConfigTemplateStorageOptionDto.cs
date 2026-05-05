@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigTemplateStorageOptionDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigTemplateStorageOptionDto
 /// </summary>
-public class SystemConfigTemplateStorageOptionDto
+public partial class SystemConfigTemplateStorageOptionDto
 {
   /// <summary>
   /// Available day format options for storage template

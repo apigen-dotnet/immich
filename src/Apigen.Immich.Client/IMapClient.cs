@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Map operations
 /// </summary>
-public interface IMapClient
+public partial interface IMapClient
 {
   /// <summary>
   /// Retrieve map markers

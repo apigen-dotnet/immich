@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetFaceCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetFaceCreateDto
 /// </summary>
-public class AssetFaceCreateDto
+public partial class AssetFaceCreateDto
 {
   /// <summary>
   /// Asset ID

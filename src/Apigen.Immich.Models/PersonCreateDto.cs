@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PersonCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PersonCreateDto
 /// </summary>
-public class PersonCreateDto
+public partial class PersonCreateDto
 {
   /// <summary>
   /// Person date of birth

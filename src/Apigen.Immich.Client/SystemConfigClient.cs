@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for System config operations
 /// </summary>
-public class SystemConfigClient
+public partial class SystemConfigClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

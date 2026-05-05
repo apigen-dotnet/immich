@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DownloadUpdate from OpenAPI schema.
 /// Schema path: #/components/schemas/DownloadUpdate
 /// </summary>
-public class DownloadUpdate
+public partial class DownloadUpdate
 {
   /// <summary>
   /// Maximum archive size in bytes

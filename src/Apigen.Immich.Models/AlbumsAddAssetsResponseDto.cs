@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AlbumsAddAssetsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AlbumsAddAssetsResponseDto
 /// </summary>
-public class AlbumsAddAssetsResponseDto
+public partial class AlbumsAddAssetsResponseDto
 {
   /// <summary>
   /// Error reason

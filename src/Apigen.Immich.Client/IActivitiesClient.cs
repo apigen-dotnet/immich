@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Activities operations
 /// </summary>
-public interface IActivitiesClient
+public partial interface IActivitiesClient
 {
   /// <summary>
   /// List all activities

@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Jobs operations
 /// </summary>
-public class JobsClient
+public partial class JobsClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

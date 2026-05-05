@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MetadataSearchDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MetadataSearchDto
 /// </summary>
-public class MetadataSearchDto
+public partial class MetadataSearchDto
 {
   /// <summary>
   /// Filter by album IDs

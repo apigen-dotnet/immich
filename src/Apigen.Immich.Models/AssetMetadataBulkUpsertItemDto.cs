@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetMetadataBulkUpsertItemDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetMetadataBulkUpsertItemDto
 /// </summary>
-public class AssetMetadataBulkUpsertItemDto
+public partial class AssetMetadataBulkUpsertItemDto
 {
   /// <summary>
   /// Asset ID

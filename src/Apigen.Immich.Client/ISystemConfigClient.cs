@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for System config operations
 /// </summary>
-public interface ISystemConfigClient
+public partial interface ISystemConfigClient
 {
   /// <summary>
   /// Get system configuration

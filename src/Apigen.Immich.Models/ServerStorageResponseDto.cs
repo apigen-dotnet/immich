@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerStorageResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerStorageResponseDto
 /// </summary>
-public class ServerStorageResponseDto
+public partial class ServerStorageResponseDto
 {
   /// <summary>
   /// Available disk space (human-readable format)

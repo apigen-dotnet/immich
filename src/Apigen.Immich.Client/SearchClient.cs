@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Search operations
 /// </summary>
-public class SearchClient
+public partial class SearchClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

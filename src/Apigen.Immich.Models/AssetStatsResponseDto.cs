@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetStatsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetStatsResponseDto
 /// </summary>
-public class AssetStatsResponseDto
+public partial class AssetStatsResponseDto
 {
   /// <summary>
   /// Number of images

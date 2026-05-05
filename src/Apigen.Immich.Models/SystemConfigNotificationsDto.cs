@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigNotificationsDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigNotificationsDto
 /// </summary>
-public class SystemConfigNotificationsDto
+public partial class SystemConfigNotificationsDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("smtp")]

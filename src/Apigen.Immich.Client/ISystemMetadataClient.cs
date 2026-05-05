@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for System metadata operations
 /// </summary>
-public interface ISystemMetadataClient
+public partial interface ISystemMetadataClient
 {
   /// <summary>
   /// Retrieve admin onboarding

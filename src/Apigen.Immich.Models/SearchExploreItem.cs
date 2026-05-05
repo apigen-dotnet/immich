@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SearchExploreItem from OpenAPI schema.
 /// Schema path: #/components/schemas/SearchExploreItem
 /// </summary>
-public class SearchExploreItem
+public partial class SearchExploreItem
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("data")]

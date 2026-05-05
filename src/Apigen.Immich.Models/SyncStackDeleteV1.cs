@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncStackDeleteV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncStackDeleteV1
 /// </summary>
-public class SyncStackDeleteV1
+public partial class SyncStackDeleteV1
 {
   /// <summary>
   /// Stack ID

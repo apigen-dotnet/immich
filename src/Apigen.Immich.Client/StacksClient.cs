@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Stacks operations
 /// </summary>
-public class StacksClient
+public partial class StacksClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

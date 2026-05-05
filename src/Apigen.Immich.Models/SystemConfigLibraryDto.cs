@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigLibraryDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigLibraryDto
 /// </summary>
-public class SystemConfigLibraryDto
+public partial class SystemConfigLibraryDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("scan")]

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TagBulkAssetsDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TagBulkAssetsDto
 /// </summary>
-public class TagBulkAssetsDto
+public partial class TagBulkAssetsDto
 {
   /// <summary>
   /// Asset IDs

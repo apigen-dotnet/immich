@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for View asset thumbnail
 /// Operation: GET /assets/{id}/thumbnail
 /// </summary>
-public class ViewAssetRequest : BaseRequest
+public partial class ViewAssetRequest : BaseRequest
 {
   /// <summary>
   /// Return edited asset if available

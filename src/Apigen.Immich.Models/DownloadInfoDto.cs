@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DownloadInfoDto from OpenAPI schema.
 /// Schema path: #/components/schemas/DownloadInfoDto
 /// </summary>
-public class DownloadInfoDto
+public partial class DownloadInfoDto
 {
   /// <summary>
   /// Album ID to download

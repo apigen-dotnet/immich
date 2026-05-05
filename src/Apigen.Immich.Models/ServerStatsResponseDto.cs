@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerStatsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerStatsResponseDto
 /// </summary>
-public class ServerStatsResponseDto
+public partial class ServerStatsResponseDto
 {
   /// <summary>
   /// Total number of photos

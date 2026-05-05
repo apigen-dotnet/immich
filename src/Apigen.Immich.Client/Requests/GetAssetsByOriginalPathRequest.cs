@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve assets by original path
 /// Operation: GET /view/folder
 /// </summary>
-public class GetAssetsByOriginalPathRequest : BaseRequest
+public partial class GetAssetsByOriginalPathRequest : BaseRequest
 {
   /// <summary>
   /// path

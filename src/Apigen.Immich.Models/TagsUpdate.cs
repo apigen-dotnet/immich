@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TagsUpdate from OpenAPI schema.
 /// Schema path: #/components/schemas/TagsUpdate
 /// </summary>
-public class TagsUpdate
+public partial class TagsUpdate
 {
   /// <summary>
   /// Whether tags are enabled

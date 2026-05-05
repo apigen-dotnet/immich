@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Notifications operations
 /// </summary>
-public interface INotificationsClient
+public partial interface INotificationsClient
 {
   /// <summary>
   /// Delete notifications

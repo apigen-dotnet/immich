@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerApkLinksDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerApkLinksDto
 /// </summary>
-public class ServerApkLinksDto
+public partial class ServerApkLinksDto
 {
   /// <summary>
   /// APK download link for ARM64 v8a architecture

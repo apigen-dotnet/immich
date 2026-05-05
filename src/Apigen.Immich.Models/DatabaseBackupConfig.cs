@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DatabaseBackupConfig from OpenAPI schema.
 /// Schema path: #/components/schemas/DatabaseBackupConfig
 /// </summary>
-public class DatabaseBackupConfig
+public partial class DatabaseBackupConfig
 {
   /// <summary>
   /// Cron expression

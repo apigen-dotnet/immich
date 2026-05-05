@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PurchaseResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/PurchaseResponse
 /// </summary>
-public class PurchaseResponse
+public partial class PurchaseResponse
 {
   /// <summary>
   /// Date until which to hide buy button

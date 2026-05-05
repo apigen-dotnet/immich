@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// WorkflowCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/WorkflowCreateDto
 /// </summary>
-public class WorkflowCreateDto
+public partial class WorkflowCreateDto
 {
   /// <summary>
   /// Workflow actions

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigLoggingDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigLoggingDto
 /// </summary>
-public class SystemConfigLoggingDto
+public partial class SystemConfigLoggingDto
 {
   /// <summary>
   /// Enabled

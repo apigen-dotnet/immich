@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// APIKeyCreateResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/APIKeyCreateResponseDto
 /// </summary>
-public class ApiKeyCreateResponseDto
+public partial class ApiKeyCreateResponseDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("apiKey")]

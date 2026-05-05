@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PersonStatisticsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PersonStatisticsResponseDto
 /// </summary>
-public class PersonStatisticsResponseDto
+public partial class PersonStatisticsResponseDto
 {
   /// <summary>
   /// Number of assets

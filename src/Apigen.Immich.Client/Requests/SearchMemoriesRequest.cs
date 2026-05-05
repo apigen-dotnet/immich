@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve memories
 /// Operation: GET /memories
 /// </summary>
-public class SearchMemoriesRequest : BaseRequest
+public partial class SearchMemoriesRequest : BaseRequest
 {
   /// <summary>
   /// Filter by date

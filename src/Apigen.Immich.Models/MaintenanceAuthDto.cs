@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MaintenanceAuthDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MaintenanceAuthDto
 /// </summary>
-public class MaintenanceAuthDto
+public partial class MaintenanceAuthDto
 {
   /// <summary>
   /// Maintenance username

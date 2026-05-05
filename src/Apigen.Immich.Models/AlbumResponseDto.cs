@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AlbumResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AlbumResponseDto
 /// </summary>
-public class AlbumResponseDto
+public partial class AlbumResponseDto
 {
   /// <summary>
   /// Album name

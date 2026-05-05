@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetEditsCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetEditsCreateDto
 /// </summary>
-public class AssetEditsCreateDto
+public partial class AssetEditsCreateDto
 {
   /// <summary>
   /// List of edit actions to apply (crop, rotate, or mirror)

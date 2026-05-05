@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UserAdminDeleteDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UserAdminDeleteDto
 /// </summary>
-public class UserAdminDeleteDto
+public partial class UserAdminDeleteDto
 {
   /// <summary>
   /// Force delete even if user has assets

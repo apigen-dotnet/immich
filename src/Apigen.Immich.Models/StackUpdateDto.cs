@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// StackUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/StackUpdateDto
 /// </summary>
-public class StackUpdateDto
+public partial class StackUpdateDto
 {
   /// <summary>
   /// Primary asset ID

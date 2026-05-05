@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Queues operations
 /// </summary>
-public interface IQueuesClient
+public partial interface IQueuesClient
 {
   /// <summary>
   /// List all queues

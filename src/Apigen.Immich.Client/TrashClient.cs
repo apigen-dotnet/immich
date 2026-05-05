@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Trash operations
 /// </summary>
-public class TrashClient
+public partial class TrashClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

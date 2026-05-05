@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Views operations
 /// </summary>
-public interface IViewsClient
+public partial interface IViewsClient
 {
   /// <summary>
   /// Retrieve assets by original path

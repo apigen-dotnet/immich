@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve stacks
 /// Operation: GET /stacks
 /// </summary>
-public class SearchStacksRequest : BaseRequest
+public partial class SearchStacksRequest : BaseRequest
 {
   /// <summary>
   /// Filter by primary asset ID

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueueResponseLegacyDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueueResponseLegacyDto
 /// </summary>
-public class QueueResponseLegacyDto
+public partial class QueueResponseLegacyDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("jobCounts")]

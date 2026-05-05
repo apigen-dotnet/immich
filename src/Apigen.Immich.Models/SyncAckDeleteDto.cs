@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAckDeleteDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAckDeleteDto
 /// </summary>
-public class SyncAckDeleteDto
+public partial class SyncAckDeleteDto
 {
   /// <summary>
   /// Sync entity types to delete acks for

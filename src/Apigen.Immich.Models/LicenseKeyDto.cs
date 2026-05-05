@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// LicenseKeyDto from OpenAPI schema.
 /// Schema path: #/components/schemas/LicenseKeyDto
 /// </summary>
-public class LicenseKeyDto
+public partial class LicenseKeyDto
 {
   /// <summary>
   /// Activation key

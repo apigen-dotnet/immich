@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Maintenance (admin) operations
 /// </summary>
-public interface IMaintenanceAdminClient
+public partial interface IMaintenanceAdminClient
 {
   /// <summary>
   /// Set maintenance mode

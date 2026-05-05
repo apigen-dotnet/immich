@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Jobs operations
 /// </summary>
-public interface IJobsClient
+public partial interface IJobsClient
 {
   /// <summary>
   /// Retrieve queue counts and status

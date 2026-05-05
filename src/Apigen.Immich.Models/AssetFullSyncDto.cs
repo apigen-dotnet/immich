@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetFullSyncDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetFullSyncDto
 /// </summary>
-public class AssetFullSyncDto
+public partial class AssetFullSyncDto
 {
   /// <summary>
   /// Last asset ID (pagination)

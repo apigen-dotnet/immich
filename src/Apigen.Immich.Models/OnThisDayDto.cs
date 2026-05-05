@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// OnThisDayDto from OpenAPI schema.
 /// Schema path: #/components/schemas/OnThisDayDto
 /// </summary>
-public class OnThisDayDto
+public partial class OnThisDayDto
 {
   /// <summary>
   /// Year for on this day memory

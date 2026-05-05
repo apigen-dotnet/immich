@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncStreamDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncStreamDto
 /// </summary>
-public class SyncStreamDto
+public partial class SyncStreamDto
 {
   /// <summary>
   /// Reset sync state

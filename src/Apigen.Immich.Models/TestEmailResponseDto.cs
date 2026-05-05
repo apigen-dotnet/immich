@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TestEmailResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TestEmailResponseDto
 /// </summary>
-public class TestEmailResponseDto
+public partial class TestEmailResponseDto
 {
   /// <summary>
   /// Email message ID

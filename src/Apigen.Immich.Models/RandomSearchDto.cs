@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// RandomSearchDto from OpenAPI schema.
 /// Schema path: #/components/schemas/RandomSearchDto
 /// </summary>
-public class RandomSearchDto
+public partial class RandomSearchDto
 {
   /// <summary>
   /// Filter by album IDs

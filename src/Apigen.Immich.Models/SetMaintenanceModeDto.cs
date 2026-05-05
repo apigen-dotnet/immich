@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SetMaintenanceModeDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SetMaintenanceModeDto
 /// </summary>
-public class SetMaintenanceModeDto
+public partial class SetMaintenanceModeDto
 {
   /// <summary>
   /// Maintenance action

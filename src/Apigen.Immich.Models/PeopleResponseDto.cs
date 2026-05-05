@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PeopleResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PeopleResponseDto
 /// </summary>
-public class PeopleResponseDto
+public partial class PeopleResponseDto
 {
   /// <summary>
   /// Whether there are more pages

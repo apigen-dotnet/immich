@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MemoriesResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/MemoriesResponse
 /// </summary>
-public class MemoriesResponse
+public partial class MemoriesResponse
 {
   /// <summary>
   /// Memory duration in seconds

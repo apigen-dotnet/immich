@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for API keys operations
 /// </summary>
-public class ApiKeysClient
+public partial class ApiKeysClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

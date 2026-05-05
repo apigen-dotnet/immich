@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Get time buckets
 /// Operation: GET /timeline/buckets
 /// </summary>
-public class GetTimeBucketsRequest : BaseRequest
+public partial class GetTimeBucketsRequest : BaseRequest
 {
   /// <summary>
   /// Filter assets belonging to a specific album

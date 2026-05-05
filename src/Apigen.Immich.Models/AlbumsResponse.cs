@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AlbumsResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/AlbumsResponse
 /// </summary>
-public class AlbumsResponse
+public partial class AlbumsResponse
 {
   /// <summary>
   /// Default asset order for albums

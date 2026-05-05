@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetIdsDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetIdsDto
 /// </summary>
-public class AssetIdsDto
+public partial class AssetIdsDto
 {
   /// <summary>
   /// Asset IDs

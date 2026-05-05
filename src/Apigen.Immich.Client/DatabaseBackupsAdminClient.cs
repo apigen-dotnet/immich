@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Database Backups (admin) operations
 /// </summary>
-public class DatabaseBackupsAdminClient
+public partial class DatabaseBackupsAdminClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

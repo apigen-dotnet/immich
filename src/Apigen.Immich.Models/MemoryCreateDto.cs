@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MemoryCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MemoryCreateDto
 /// </summary>
-public class MemoryCreateDto
+public partial class MemoryCreateDto
 {
   /// <summary>
   /// Asset IDs to associate with memory

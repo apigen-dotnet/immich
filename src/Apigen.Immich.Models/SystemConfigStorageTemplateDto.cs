@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigStorageTemplateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigStorageTemplateDto
 /// </summary>
-public class SystemConfigStorageTemplateDto
+public partial class SystemConfigStorageTemplateDto
 {
   /// <summary>
   /// Enabled

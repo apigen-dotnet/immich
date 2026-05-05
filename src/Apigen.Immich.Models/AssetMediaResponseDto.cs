@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetMediaResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetMediaResponseDto
 /// </summary>
-public class AssetMediaResponseDto
+public partial class AssetMediaResponseDto
 {
   /// <summary>
   /// Asset media ID

@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Get asset statistics
 /// Operation: GET /assets/statistics
 /// </summary>
-public class GetAssetStatisticsRequest : BaseRequest
+public partial class GetAssetStatisticsRequest : BaseRequest
 {
   /// <summary>
   /// Filter by favorite status

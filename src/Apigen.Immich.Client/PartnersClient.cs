@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Partners operations
 /// </summary>
-public class PartnersClient
+public partial class PartnersClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// WorkflowFilterItemDto from OpenAPI schema.
 /// Schema path: #/components/schemas/WorkflowFilterItemDto
 /// </summary>
-public class WorkflowFilterItemDto
+public partial class WorkflowFilterItemDto
 {
   /// <summary>
   /// Filter configuration

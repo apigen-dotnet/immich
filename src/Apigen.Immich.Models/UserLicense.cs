@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UserLicense from OpenAPI schema.
 /// Schema path: #/components/schemas/UserLicense
 /// </summary>
-public class UserLicense
+public partial class UserLicense
 {
   /// <summary>
   /// Activation date

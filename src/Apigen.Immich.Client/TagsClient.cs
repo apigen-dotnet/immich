@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Tags operations
 /// </summary>
-public class TagsClient
+public partial class TagsClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

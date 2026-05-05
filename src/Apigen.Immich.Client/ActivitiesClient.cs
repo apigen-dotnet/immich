@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Activities operations
 /// </summary>
-public class ActivitiesClient
+public partial class ActivitiesClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetFaceDeleteDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetFaceDeleteDto
 /// </summary>
-public class AssetFaceDeleteDto
+public partial class AssetFaceDeleteDto
 {
   /// <summary>
   /// Force delete even if person has other faces

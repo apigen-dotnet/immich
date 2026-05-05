@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ContributorCountResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ContributorCountResponseDto
 /// </summary>
-public class ContributorCountResponseDto
+public partial class ContributorCountResponseDto
 {
   /// <summary>
   /// Number of assets contributed

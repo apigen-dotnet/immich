@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Memories operations
 /// </summary>
-public class MemoriesClient
+public partial class MemoriesClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

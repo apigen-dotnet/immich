@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerFeaturesDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerFeaturesDto
 /// </summary>
-public class ServerFeaturesDto
+public partial class ServerFeaturesDto
 {
   /// <summary>
   /// Whether config file is available

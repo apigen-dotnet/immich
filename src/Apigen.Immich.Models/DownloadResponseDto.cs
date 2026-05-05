@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DownloadResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/DownloadResponseDto
 /// </summary>
-public class DownloadResponseDto
+public partial class DownloadResponseDto
 {
   /// <summary>
   /// Archive information

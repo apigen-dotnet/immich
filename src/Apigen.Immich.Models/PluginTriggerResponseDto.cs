@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PluginTriggerResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PluginTriggerResponseDto
 /// </summary>
-public class PluginTriggerResponseDto
+public partial class PluginTriggerResponseDto
 {
   /// <summary>
   /// Context type

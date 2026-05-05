@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MemoryResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MemoryResponseDto
 /// </summary>
-public class MemoryResponseDto
+public partial class MemoryResponseDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("assets")]

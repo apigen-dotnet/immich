@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Reverse geocode coordinates
 /// Operation: GET /map/reverse-geocode
 /// </summary>
-public class ReverseGeocodeRequest : BaseRequest
+public partial class ReverseGeocodeRequest : BaseRequest
 {
   /// <summary>
   /// Latitude (-90 to 90)

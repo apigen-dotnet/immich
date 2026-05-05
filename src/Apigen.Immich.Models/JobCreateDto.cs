@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// JobCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/JobCreateDto
 /// </summary>
-public class JobCreateDto
+public partial class JobCreateDto
 {
   /// <summary>
   /// Job name

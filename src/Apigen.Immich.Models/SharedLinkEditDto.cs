@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SharedLinkEditDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SharedLinkEditDto
 /// </summary>
-public class SharedLinkEditDto
+public partial class SharedLinkEditDto
 {
   /// <summary>
   /// Allow downloads

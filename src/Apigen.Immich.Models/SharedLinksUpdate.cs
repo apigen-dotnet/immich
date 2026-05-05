@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SharedLinksUpdate from OpenAPI schema.
 /// Schema path: #/components/schemas/SharedLinksUpdate
 /// </summary>
-public class SharedLinksUpdate
+public partial class SharedLinksUpdate
 {
   /// <summary>
   /// Whether shared links are enabled

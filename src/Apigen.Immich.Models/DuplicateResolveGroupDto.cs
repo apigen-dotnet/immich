@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DuplicateResolveGroupDto from OpenAPI schema.
 /// Schema path: #/components/schemas/DuplicateResolveGroupDto
 /// </summary>
-public class DuplicateResolveGroupDto
+public partial class DuplicateResolveGroupDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("duplicateId")]

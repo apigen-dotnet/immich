@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SharedLinksResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/SharedLinksResponse
 /// </summary>
-public class SharedLinksResponse
+public partial class SharedLinksResponse
 {
   /// <summary>
   /// Whether shared links are enabled

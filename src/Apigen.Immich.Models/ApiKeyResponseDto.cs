@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// APIKeyResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/APIKeyResponseDto
 /// </summary>
-public class ApiKeyResponseDto
+public partial class ApiKeyResponseDto
 {
   /// <summary>
   /// Creation date

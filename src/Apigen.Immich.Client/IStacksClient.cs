@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Stacks operations
 /// </summary>
-public interface IStacksClient
+public partial interface IStacksClient
 {
   /// <summary>
   /// Delete stacks

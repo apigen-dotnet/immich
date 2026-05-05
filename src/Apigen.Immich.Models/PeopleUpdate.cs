@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PeopleUpdate from OpenAPI schema.
 /// Schema path: #/components/schemas/PeopleUpdate
 /// </summary>
-public class PeopleUpdate
+public partial class PeopleUpdate
 {
   /// <summary>
   /// Whether people are enabled

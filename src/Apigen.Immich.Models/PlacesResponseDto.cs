@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PlacesResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PlacesResponseDto
 /// </summary>
-public class PlacesResponseDto
+public partial class PlacesResponseDto
 {
   /// <summary>
   /// Administrative level 1 name (state/province)

@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Timeline operations
 /// </summary>
-public interface ITimelineClient
+public partial interface ITimelineClient
 {
   /// <summary>
   /// Get time bucket

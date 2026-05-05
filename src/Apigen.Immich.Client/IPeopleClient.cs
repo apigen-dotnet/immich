@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for People operations
 /// </summary>
-public interface IPeopleClient
+public partial interface IPeopleClient
 {
   /// <summary>
   /// Delete people

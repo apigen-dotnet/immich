@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerPingResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerPingResponse
 /// </summary>
-public class ServerPingResponse
+public partial class ServerPingResponse
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("res")]

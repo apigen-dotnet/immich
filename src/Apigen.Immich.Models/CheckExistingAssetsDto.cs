@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CheckExistingAssetsDto from OpenAPI schema.
 /// Schema path: #/components/schemas/CheckExistingAssetsDto
 /// </summary>
-public class CheckExistingAssetsDto
+public partial class CheckExistingAssetsDto
 {
   /// <summary>
   /// Device asset IDs to check

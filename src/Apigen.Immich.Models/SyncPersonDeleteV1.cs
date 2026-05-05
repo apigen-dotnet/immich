@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncPersonDeleteV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncPersonDeleteV1
 /// </summary>
-public class SyncPersonDeleteV1
+public partial class SyncPersonDeleteV1
 {
   /// <summary>
   /// Person ID

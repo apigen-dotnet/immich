@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SearchStatisticsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SearchStatisticsResponseDto
 /// </summary>
-public class SearchStatisticsResponseDto
+public partial class SearchStatisticsResponseDto
 {
   /// <summary>
   /// Total number of matching assets

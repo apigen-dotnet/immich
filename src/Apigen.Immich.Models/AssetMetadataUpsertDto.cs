@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetMetadataUpsertDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetMetadataUpsertDto
 /// </summary>
-public class AssetMetadataUpsertDto
+public partial class AssetMetadataUpsertDto
 {
   /// <summary>
   /// Metadata items to upsert

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PinCodeChangeDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PinCodeChangeDto
 /// </summary>
-public class PinCodeChangeDto
+public partial class PinCodeChangeDto
 {
   /// <summary>
   /// New PIN code (4-6 digits)

@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Duplicates operations
 /// </summary>
-public interface IDuplicatesClient
+public partial interface IDuplicatesClient
 {
   /// <summary>
   /// Delete duplicates

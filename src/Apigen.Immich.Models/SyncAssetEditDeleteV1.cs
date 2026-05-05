@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAssetEditDeleteV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAssetEditDeleteV1
 /// </summary>
-public class SyncAssetEditDeleteV1
+public partial class SyncAssetEditDeleteV1
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("editId")]

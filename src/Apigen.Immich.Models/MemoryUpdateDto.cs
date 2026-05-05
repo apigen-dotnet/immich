@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MemoryUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MemoryUpdateDto
 /// </summary>
-public class MemoryUpdateDto
+public partial class MemoryUpdateDto
 {
   /// <summary>
   /// Is memory saved

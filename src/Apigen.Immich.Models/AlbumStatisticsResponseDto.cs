@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AlbumStatisticsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AlbumStatisticsResponseDto
 /// </summary>
-public class AlbumStatisticsResponseDto
+public partial class AlbumStatisticsResponseDto
 {
   /// <summary>
   /// Number of non-shared albums

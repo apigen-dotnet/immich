@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UserResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UserResponseDto
 /// </summary>
-public class UserResponseDto
+public partial class UserResponseDto
 {
   /// <summary>
   /// Avatar color

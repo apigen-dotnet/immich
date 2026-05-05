@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// APIKeyUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/APIKeyUpdateDto
 /// </summary>
-public class ApiKeyUpdateDto
+public partial class ApiKeyUpdateDto
 {
   /// <summary>
   /// API key name

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAssetExifV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAssetExifV1
 /// </summary>
-public class SyncAssetExifV1
+public partial class SyncAssetExifV1
 {
   /// <summary>
   /// Asset ID

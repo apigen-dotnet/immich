@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// OcrConfig from OpenAPI schema.
 /// Schema path: #/components/schemas/OcrConfig
 /// </summary>
-public class OcrConfig
+public partial class OcrConfig
 {
   /// <summary>
   /// Whether the task is enabled

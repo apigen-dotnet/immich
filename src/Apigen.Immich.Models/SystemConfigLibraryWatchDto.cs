@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigLibraryWatchDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigLibraryWatchDto
 /// </summary>
-public class SystemConfigLibraryWatchDto
+public partial class SystemConfigLibraryWatchDto
 {
   /// <summary>
   /// Enabled

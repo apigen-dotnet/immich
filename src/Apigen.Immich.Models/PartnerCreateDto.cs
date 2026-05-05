@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PartnerCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PartnerCreateDto
 /// </summary>
-public class PartnerCreateDto
+public partial class PartnerCreateDto
 {
   /// <summary>
   /// User ID to share with

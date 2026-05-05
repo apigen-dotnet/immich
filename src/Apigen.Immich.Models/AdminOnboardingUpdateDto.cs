@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AdminOnboardingUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AdminOnboardingUpdateDto
 /// </summary>
-public class AdminOnboardingUpdateDto
+public partial class AdminOnboardingUpdateDto
 {
   /// <summary>
   /// Is admin onboarded

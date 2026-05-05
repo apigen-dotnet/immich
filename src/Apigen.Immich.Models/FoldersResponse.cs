@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// FoldersResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/FoldersResponse
 /// </summary>
-public class FoldersResponse
+public partial class FoldersResponse
 {
   /// <summary>
   /// Whether folders are enabled

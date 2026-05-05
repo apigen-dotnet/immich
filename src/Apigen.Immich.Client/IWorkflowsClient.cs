@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Workflows operations
 /// </summary>
-public interface IWorkflowsClient
+public partial interface IWorkflowsClient
 {
   /// <summary>
   /// List all workflows

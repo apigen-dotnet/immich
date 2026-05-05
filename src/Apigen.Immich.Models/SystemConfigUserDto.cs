@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigUserDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigUserDto
 /// </summary>
-public class SystemConfigUserDto
+public partial class SystemConfigUserDto
 {
   /// <summary>
   /// Delete delay

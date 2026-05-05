@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// OAuthConfigDto from OpenAPI schema.
 /// Schema path: #/components/schemas/OAuthConfigDto
 /// </summary>
-public class OAuthConfigDto
+public partial class OAuthConfigDto
 {
   /// <summary>
   /// OAuth code challenge (PKCE)

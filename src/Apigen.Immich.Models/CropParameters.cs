@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CropParameters from OpenAPI schema.
 /// Schema path: #/components/schemas/CropParameters
 /// </summary>
-public class CropParameters
+public partial class CropParameters
 {
   /// <summary>
   /// Height of the crop

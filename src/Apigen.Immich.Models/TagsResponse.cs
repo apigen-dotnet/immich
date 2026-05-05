@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TagsResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/TagsResponse
 /// </summary>
-public class TagsResponse
+public partial class TagsResponse
 {
   /// <summary>
   /// Whether tags are enabled

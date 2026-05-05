@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Download operations
 /// </summary>
-public class DownloadClient
+public partial class DownloadClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

@@ -26,7 +26,7 @@ namespace Apigen.Immich.Models;
 /// 
 /// Album preferences
 /// </summary>
-public class AlbumsUpdate
+public partial class AlbumsUpdate
 {
   /// <summary>
   /// Default asset order for albums

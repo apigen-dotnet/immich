@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DatabaseBackupDeleteDto from OpenAPI schema.
 /// Schema path: #/components/schemas/DatabaseBackupDeleteDto
 /// </summary>
-public class DatabaseBackupDeleteDto
+public partial class DatabaseBackupDeleteDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("backups")]

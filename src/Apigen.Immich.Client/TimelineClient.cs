@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Timeline operations
 /// </summary>
-public class TimelineClient
+public partial class TimelineClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

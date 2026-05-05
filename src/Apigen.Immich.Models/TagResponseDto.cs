@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TagResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TagResponseDto
 /// </summary>
-public class TagResponseDto
+public partial class TagResponseDto
 {
   /// <summary>
   /// Tag color (hex)

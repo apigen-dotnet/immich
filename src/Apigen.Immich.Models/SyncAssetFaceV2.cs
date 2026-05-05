@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAssetFaceV2 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAssetFaceV2
 /// </summary>
-public class SyncAssetFaceV2
+public partial class SyncAssetFaceV2
 {
   /// <summary>
   /// Asset ID

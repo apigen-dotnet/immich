@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DuplicateResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/DuplicateResponseDto
 /// </summary>
-public class DuplicateResponseDto
+public partial class DuplicateResponseDto
 {
   /// <summary>
   /// Duplicate assets

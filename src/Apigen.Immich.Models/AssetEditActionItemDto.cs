@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetEditActionItemDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetEditActionItemDto
 /// </summary>
-public class AssetEditActionItemDto
+public partial class AssetEditActionItemDto
 {
   /// <summary>
   /// Type of edit action to perform

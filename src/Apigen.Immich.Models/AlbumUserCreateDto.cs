@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AlbumUserCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AlbumUserCreateDto
 /// </summary>
-public class AlbumUserCreateDto
+public partial class AlbumUserCreateDto
 {
   /// <summary>
   /// Album user role

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetMediaReplaceDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetMediaReplaceDto
 /// </summary>
-public class AssetMediaReplaceDto
+public partial class AssetMediaReplaceDto
 {
   /// <summary>
   /// Asset file data

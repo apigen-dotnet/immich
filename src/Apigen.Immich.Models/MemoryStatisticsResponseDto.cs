@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MemoryStatisticsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MemoryStatisticsResponseDto
 /// </summary>
-public class MemoryStatisticsResponseDto
+public partial class MemoryStatisticsResponseDto
 {
   /// <summary>
   /// Total number of memories

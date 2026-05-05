@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CastUpdate from OpenAPI schema.
 /// Schema path: #/components/schemas/CastUpdate
 /// </summary>
-public class CastUpdate
+public partial class CastUpdate
 {
   /// <summary>
   /// Whether Google Cast is enabled

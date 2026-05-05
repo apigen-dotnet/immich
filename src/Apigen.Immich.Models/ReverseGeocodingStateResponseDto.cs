@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ReverseGeocodingStateResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ReverseGeocodingStateResponseDto
 /// </summary>
-public class ReverseGeocodingStateResponseDto
+public partial class ReverseGeocodingStateResponseDto
 {
   /// <summary>
   /// Last import file name

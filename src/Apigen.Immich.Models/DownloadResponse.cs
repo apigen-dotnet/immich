@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DownloadResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/DownloadResponse
 /// </summary>
-public class DownloadResponse
+public partial class DownloadResponse
 {
   /// <summary>
   /// Maximum archive size in bytes

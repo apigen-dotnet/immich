@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// FacialRecognitionConfig from OpenAPI schema.
 /// Schema path: #/components/schemas/FacialRecognitionConfig
 /// </summary>
-public class FacialRecognitionConfig
+public partial class FacialRecognitionConfig
 {
   /// <summary>
   /// Whether the task is enabled

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigNightlyTasksDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigNightlyTasksDto
 /// </summary>
-public class SystemConfigNightlyTasksDto
+public partial class SystemConfigNightlyTasksDto
 {
   /// <summary>
   /// Cluster new faces

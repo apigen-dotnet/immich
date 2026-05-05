@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerVersionResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerVersionResponseDto
 /// </summary>
-public class ServerVersionResponseDto
+public partial class ServerVersionResponseDto
 {
   /// <summary>
   /// Major version number

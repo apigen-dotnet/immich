@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetBulkUploadCheckItem from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetBulkUploadCheckItem
 /// </summary>
-public class AssetBulkUploadCheckItem
+public partial class AssetBulkUploadCheckItem
 {
   /// <summary>
   /// Base64 or hex encoded SHA1 hash

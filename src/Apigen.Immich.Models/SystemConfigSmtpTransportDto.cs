@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigSmtpTransportDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigSmtpTransportDto
 /// </summary>
-public class SystemConfigSmtpTransportDto
+public partial class SystemConfigSmtpTransportDto
 {
   /// <summary>
   /// SMTP server hostname

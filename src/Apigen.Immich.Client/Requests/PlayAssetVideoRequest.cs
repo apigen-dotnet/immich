@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Play asset video
 /// Operation: GET /assets/{id}/video/playback
 /// </summary>
-public class PlayAssetVideoRequest : BaseRequest
+public partial class PlayAssetVideoRequest : BaseRequest
 {
   /// <summary>
   /// key

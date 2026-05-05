@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAssetDeleteV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAssetDeleteV1
 /// </summary>
-public class SyncAssetDeleteV1
+public partial class SyncAssetDeleteV1
 {
   /// <summary>
   /// Asset ID

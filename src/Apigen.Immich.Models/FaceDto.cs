@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// FaceDto from OpenAPI schema.
 /// Schema path: #/components/schemas/FaceDto
 /// </summary>
-public class FaceDto
+public partial class FaceDto
 {
   /// <summary>
   /// Face ID

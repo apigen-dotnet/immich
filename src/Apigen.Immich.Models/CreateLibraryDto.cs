@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CreateLibraryDto from OpenAPI schema.
 /// Schema path: #/components/schemas/CreateLibraryDto
 /// </summary>
-public class CreateLibraryDto
+public partial class CreateLibraryDto
 {
   /// <summary>
   /// Exclusion patterns (max 128)

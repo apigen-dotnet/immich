@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigPasswordLoginDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigPasswordLoginDto
 /// </summary>
-public class SystemConfigPasswordLoginDto
+public partial class SystemConfigPasswordLoginDto
 {
   /// <summary>
   /// Enabled

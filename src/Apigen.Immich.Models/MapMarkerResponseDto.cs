@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MapMarkerResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MapMarkerResponseDto
 /// </summary>
-public class MapMarkerResponseDto
+public partial class MapMarkerResponseDto
 {
   /// <summary>
   /// City name

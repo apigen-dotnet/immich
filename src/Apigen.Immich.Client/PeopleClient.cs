@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for People operations
 /// </summary>
-public class PeopleClient
+public partial class PeopleClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

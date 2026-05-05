@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SearchAlbumResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SearchAlbumResponseDto
 /// </summary>
-public class SearchAlbumResponseDto
+public partial class SearchAlbumResponseDto
 {
   /// <summary>
   /// Number of albums in this page

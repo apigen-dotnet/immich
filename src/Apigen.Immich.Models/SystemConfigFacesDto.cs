@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigFacesDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigFacesDto
 /// </summary>
-public class SystemConfigFacesDto
+public partial class SystemConfigFacesDto
 {
   /// <summary>
   /// Import

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TagUpsertDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TagUpsertDto
 /// </summary>
-public class TagUpsertDto
+public partial class TagUpsertDto
 {
   /// <summary>
   /// Tag names to upsert

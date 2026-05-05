@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigJobDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigJobDto
 /// </summary>
-public class SystemConfigJobDto
+public partial class SystemConfigJobDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("backgroundTask")]

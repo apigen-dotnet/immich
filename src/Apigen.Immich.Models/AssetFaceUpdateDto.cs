@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetFaceUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetFaceUpdateDto
 /// </summary>
-public class AssetFaceUpdateDto
+public partial class AssetFaceUpdateDto
 {
   /// <summary>
   /// Face update items

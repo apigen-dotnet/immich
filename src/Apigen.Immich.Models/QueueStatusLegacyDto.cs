@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueueStatusLegacyDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueueStatusLegacyDto
 /// </summary>
-public class QueueStatusLegacyDto
+public partial class QueueStatusLegacyDto
 {
   /// <summary>
   /// Whether the queue is currently active (has running jobs)

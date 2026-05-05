@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// RotateParameters from OpenAPI schema.
 /// Schema path: #/components/schemas/RotateParameters
 /// </summary>
-public class RotateParameters
+public partial class RotateParameters
 {
   /// <summary>
   /// Rotation angle in degrees

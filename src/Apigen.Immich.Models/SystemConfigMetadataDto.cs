@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigMetadataDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigMetadataDto
 /// </summary>
-public class SystemConfigMetadataDto
+public partial class SystemConfigMetadataDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("faces")]

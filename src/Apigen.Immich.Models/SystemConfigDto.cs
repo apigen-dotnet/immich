@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigDto
 /// </summary>
-public class SystemConfigDto
+public partial class SystemConfigDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("backup")]

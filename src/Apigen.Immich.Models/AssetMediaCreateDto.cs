@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetMediaCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetMediaCreateDto
 /// </summary>
-public class AssetMediaCreateDto
+public partial class AssetMediaCreateDto
 {
   /// <summary>
   /// Asset file data

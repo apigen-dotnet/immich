@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TemplateResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TemplateResponseDto
 /// </summary>
-public class TemplateResponseDto
+public partial class TemplateResponseDto
 {
   /// <summary>
   /// Template HTML content

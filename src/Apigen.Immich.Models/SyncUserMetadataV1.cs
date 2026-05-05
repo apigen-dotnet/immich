@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncUserMetadataV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncUserMetadataV1
 /// </summary>
-public class SyncUserMetadataV1
+public partial class SyncUserMetadataV1
 {
   /// <summary>
   /// User metadata key

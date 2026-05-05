@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerConfigDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerConfigDto
 /// </summary>
-public class ServerConfigDto
+public partial class ServerConfigDto
 {
   /// <summary>
   /// External domain URL

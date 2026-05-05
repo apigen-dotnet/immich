@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Add assets to a shared link
 /// Operation: PUT /shared-links/{id}/assets
 /// </summary>
-public class AddSharedLinkAssetsRequest : BaseRequest
+public partial class AddSharedLinkAssetsRequest : BaseRequest
 {
   /// <summary>
   /// key

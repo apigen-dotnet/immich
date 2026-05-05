@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncStackV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncStackV1
 /// </summary>
-public class SyncStackV1
+public partial class SyncStackV1
 {
   /// <summary>
   /// Created at

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigGeneratedFullsizeImageDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigGeneratedFullsizeImageDto
 /// </summary>
-public class SystemConfigGeneratedFullsizeImageDto
+public partial class SystemConfigGeneratedFullsizeImageDto
 {
   /// <summary>
   /// Enabled

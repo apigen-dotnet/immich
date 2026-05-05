@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UserAdminUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UserAdminUpdateDto
 /// </summary>
-public class UserAdminUpdateDto
+public partial class UserAdminUpdateDto
 {
   /// <summary>
   /// Avatar color

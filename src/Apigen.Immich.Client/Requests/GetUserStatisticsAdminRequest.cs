@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve user statistics
 /// Operation: GET /admin/users/{id}/statistics
 /// </summary>
-public class GetUserStatisticsAdminRequest : BaseRequest
+public partial class GetUserStatisticsAdminRequest : BaseRequest
 {
   /// <summary>
   /// Filter by favorite status

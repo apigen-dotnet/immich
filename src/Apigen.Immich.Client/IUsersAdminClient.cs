@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Users (admin) operations
 /// </summary>
-public interface IUsersAdminClient
+public partial interface IUsersAdminClient
 {
   /// <summary>
   /// Search users

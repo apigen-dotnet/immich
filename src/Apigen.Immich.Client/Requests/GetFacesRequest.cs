@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve faces for asset
 /// Operation: GET /faces
 /// </summary>
-public class GetFacesRequest : BaseRequest
+public partial class GetFacesRequest : BaseRequest
 {
   /// <summary>
   /// Face ID

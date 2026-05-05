@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Shared links operations
 /// </summary>
-public interface ISharedLinksClient
+public partial interface ISharedLinksClient
 {
   /// <summary>
   /// Retrieve all shared links

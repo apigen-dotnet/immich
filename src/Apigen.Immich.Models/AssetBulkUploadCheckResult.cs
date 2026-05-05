@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetBulkUploadCheckResult from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetBulkUploadCheckResult
 /// </summary>
-public class AssetBulkUploadCheckResult
+public partial class AssetBulkUploadCheckResult
 {
   /// <summary>
   /// Upload action

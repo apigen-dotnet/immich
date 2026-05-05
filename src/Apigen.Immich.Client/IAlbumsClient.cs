@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Albums operations
 /// </summary>
-public interface IAlbumsClient
+public partial interface IAlbumsClient
 {
   /// <summary>
   /// List all albums

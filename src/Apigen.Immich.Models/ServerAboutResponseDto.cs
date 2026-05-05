@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerAboutResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerAboutResponseDto
 /// </summary>
-public class ServerAboutResponseDto
+public partial class ServerAboutResponseDto
 {
   /// <summary>
   /// Build identifier

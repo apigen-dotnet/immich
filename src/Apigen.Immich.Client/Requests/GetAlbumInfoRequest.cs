@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve an album
 /// Operation: GET /albums/{id}
 /// </summary>
-public class GetAlbumInfoRequest : BaseRequest
+public partial class GetAlbumInfoRequest : BaseRequest
 {
   /// <summary>
   /// key

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAckDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAckDto
 /// </summary>
-public class SyncAckDto
+public partial class SyncAckDto
 {
   /// <summary>
   /// Acknowledgment ID

@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Add assets to albums
 /// Operation: PUT /albums/assets
 /// </summary>
-public class AddAssetsToAlbumsRequest : BaseRequest
+public partial class AddAssetsToAlbumsRequest : BaseRequest
 {
   /// <summary>
   /// key

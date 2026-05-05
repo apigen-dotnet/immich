@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MergePersonDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MergePersonDto
 /// </summary>
-public class MergePersonDto
+public partial class MergePersonDto
 {
   /// <summary>
   /// Person IDs to merge

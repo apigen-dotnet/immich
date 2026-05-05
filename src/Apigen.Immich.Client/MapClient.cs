@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Map operations
 /// </summary>
-public class MapClient
+public partial class MapClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

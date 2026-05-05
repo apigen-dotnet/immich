@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAssetMetadataV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAssetMetadataV1
 /// </summary>
-public class SyncAssetMetadataV1
+public partial class SyncAssetMetadataV1
 {
   /// <summary>
   /// Asset ID

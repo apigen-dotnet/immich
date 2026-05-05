@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// NotificationDeleteAllDto from OpenAPI schema.
 /// Schema path: #/components/schemas/NotificationDeleteAllDto
 /// </summary>
-public class NotificationDeleteAllDto
+public partial class NotificationDeleteAllDto
 {
   /// <summary>
   /// Notification IDs to delete

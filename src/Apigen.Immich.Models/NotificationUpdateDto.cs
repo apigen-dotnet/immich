@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// NotificationUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/NotificationUpdateDto
 /// </summary>
-public class NotificationUpdateDto
+public partial class NotificationUpdateDto
 {
   /// <summary>
   /// Date when notification was read

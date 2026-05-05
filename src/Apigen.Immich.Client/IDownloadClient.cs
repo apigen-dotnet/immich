@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Download operations
 /// </summary>
-public interface IDownloadClient
+public partial interface IDownloadClient
 {
   /// <summary>
   /// Download asset archive

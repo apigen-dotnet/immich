@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ActivityStatisticsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ActivityStatisticsResponseDto
 /// </summary>
-public class ActivityStatisticsResponseDto
+public partial class ActivityStatisticsResponseDto
 {
   /// <summary>
   /// Number of comments

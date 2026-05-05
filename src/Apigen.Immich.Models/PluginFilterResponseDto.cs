@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PluginFilterResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PluginFilterResponseDto
 /// </summary>
-public class PluginFilterResponseDto
+public partial class PluginFilterResponseDto
 {
   /// <summary>
   /// Filter description

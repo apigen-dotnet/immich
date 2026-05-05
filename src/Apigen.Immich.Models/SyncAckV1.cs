@@ -24,6 +24,6 @@ namespace Apigen.Immich.Models;
 /// SyncAckV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAckV1
 /// </summary>
-public class SyncAckV1
+public partial class SyncAckV1
 {
 }

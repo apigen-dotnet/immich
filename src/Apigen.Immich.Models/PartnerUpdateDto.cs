@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PartnerUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PartnerUpdateDto
 /// </summary>
-public class PartnerUpdateDto
+public partial class PartnerUpdateDto
 {
   /// <summary>
   /// Show partner assets in timeline

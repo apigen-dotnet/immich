@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DatabaseBackupDto from OpenAPI schema.
 /// Schema path: #/components/schemas/DatabaseBackupDto
 /// </summary>
-public class DatabaseBackupDto
+public partial class DatabaseBackupDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("filename")]

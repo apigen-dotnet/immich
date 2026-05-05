@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerVersionHistoryResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerVersionHistoryResponseDto
 /// </summary>
-public class ServerVersionHistoryResponseDto
+public partial class ServerVersionHistoryResponseDto
 {
   /// <summary>
   /// When this version was first seen

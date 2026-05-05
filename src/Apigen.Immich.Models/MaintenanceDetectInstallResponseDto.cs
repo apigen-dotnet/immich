@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MaintenanceDetectInstallResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MaintenanceDetectInstallResponseDto
 /// </summary>
-public class MaintenanceDetectInstallResponseDto
+public partial class MaintenanceDetectInstallResponseDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("storage")]

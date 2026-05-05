@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Plugins operations
 /// </summary>
-public interface IPluginsClient
+public partial interface IPluginsClient
 {
   /// <summary>
   /// List all plugins

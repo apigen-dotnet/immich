@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CreateProfileImageResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/CreateProfileImageResponseDto
 /// </summary>
-public class CreateProfileImageResponseDto
+public partial class CreateProfileImageResponseDto
 {
   /// <summary>
   /// Profile image change date

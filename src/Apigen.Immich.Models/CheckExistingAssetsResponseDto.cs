@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CheckExistingAssetsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/CheckExistingAssetsResponseDto
 /// </summary>
-public class CheckExistingAssetsResponseDto
+public partial class CheckExistingAssetsResponseDto
 {
   /// <summary>
   /// Existing asset IDs

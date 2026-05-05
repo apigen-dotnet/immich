@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SharedLinkLoginDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SharedLinkLoginDto
 /// </summary>
-public class SharedLinkLoginDto
+public partial class SharedLinkLoginDto
 {
   /// <summary>
   /// Shared link password

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueueCommandDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueueCommandDto
 /// </summary>
-public class QueueCommandDto
+public partial class QueueCommandDto
 {
   /// <summary>
   /// Queue command to execute

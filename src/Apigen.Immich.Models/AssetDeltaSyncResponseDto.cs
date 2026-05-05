@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetDeltaSyncResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetDeltaSyncResponseDto
 /// </summary>
-public class AssetDeltaSyncResponseDto
+public partial class AssetDeltaSyncResponseDto
 {
   /// <summary>
   /// Deleted asset IDs

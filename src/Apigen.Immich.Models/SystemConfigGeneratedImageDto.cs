@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigGeneratedImageDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigGeneratedImageDto
 /// </summary>
-public class SystemConfigGeneratedImageDto
+public partial class SystemConfigGeneratedImageDto
 {
   /// <summary>
   /// Image format

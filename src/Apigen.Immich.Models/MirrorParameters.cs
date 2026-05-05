@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MirrorParameters from OpenAPI schema.
 /// Schema path: #/components/schemas/MirrorParameters
 /// </summary>
-public class MirrorParameters
+public partial class MirrorParameters
 {
   /// <summary>
   /// Axis to mirror along

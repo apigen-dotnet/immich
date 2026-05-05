@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SessionCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SessionCreateDto
 /// </summary>
-public class SessionCreateDto
+public partial class SessionCreateDto
 {
   /// <summary>
   /// Device OS

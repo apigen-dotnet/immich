@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// OnboardingResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/OnboardingResponseDto
 /// </summary>
-public class OnboardingResponseDto
+public partial class OnboardingResponseDto
 {
   /// <summary>
   /// Is user onboarded

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SharedLinkCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SharedLinkCreateDto
 /// </summary>
-public class SharedLinkCreateDto
+public partial class SharedLinkCreateDto
 {
   /// <summary>
   /// Album ID (for album sharing)

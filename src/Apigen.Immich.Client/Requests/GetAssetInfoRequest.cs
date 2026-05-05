@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve an asset
 /// Operation: GET /assets/{id}
 /// </summary>
-public class GetAssetInfoRequest : BaseRequest
+public partial class GetAssetInfoRequest : BaseRequest
 {
   /// <summary>
   /// key

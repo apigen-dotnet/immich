@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Database Backups (admin) operations
 /// </summary>
-public interface IDatabaseBackupsAdminClient
+public partial interface IDatabaseBackupsAdminClient
 {
   /// <summary>
   /// Delete database backup

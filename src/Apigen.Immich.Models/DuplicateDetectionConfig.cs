@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DuplicateDetectionConfig from OpenAPI schema.
 /// Schema path: #/components/schemas/DuplicateDetectionConfig
 /// </summary>
-public class DuplicateDetectionConfig
+public partial class DuplicateDetectionConfig
 {
   /// <summary>
   /// Whether the task is enabled

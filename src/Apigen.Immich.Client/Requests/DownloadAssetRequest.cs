@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Download original asset
 /// Operation: GET /assets/{id}/original
 /// </summary>
-public class DownloadAssetRequest : BaseRequest
+public partial class DownloadAssetRequest : BaseRequest
 {
   /// <summary>
   /// Return edited asset if available

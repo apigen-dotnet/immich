@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DownloadArchiveInfo from OpenAPI schema.
 /// Schema path: #/components/schemas/DownloadArchiveInfo
 /// </summary>
-public class DownloadArchiveInfo
+public partial class DownloadArchiveInfo
 {
   /// <summary>
   /// Asset IDs in this archive

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncPersonV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncPersonV1
 /// </summary>
-public class SyncPersonV1
+public partial class SyncPersonV1
 {
   /// <summary>
   /// Birth date

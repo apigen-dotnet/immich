@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Shared link login
 /// Operation: POST /shared-links/login
 /// </summary>
-public class SharedLinkLoginRequest : BaseRequest
+public partial class SharedLinkLoginRequest : BaseRequest
 {
   /// <summary>
   /// key

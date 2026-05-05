@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MachineLearningAvailabilityChecksDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MachineLearningAvailabilityChecksDto
 /// </summary>
-public class MachineLearningAvailabilityChecksDto
+public partial class MachineLearningAvailabilityChecksDto
 {
   /// <summary>
   /// Enabled

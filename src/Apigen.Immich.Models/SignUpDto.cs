@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SignUpDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SignUpDto
 /// </summary>
-public class SignUpDto
+public partial class SignUpDto
 {
   /// <summary>
   /// User email

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// WorkflowResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/WorkflowResponseDto
 /// </summary>
-public class WorkflowResponseDto
+public partial class WorkflowResponseDto
 {
   /// <summary>
   /// Workflow actions

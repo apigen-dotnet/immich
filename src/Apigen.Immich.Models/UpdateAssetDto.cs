@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UpdateAssetDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UpdateAssetDto
 /// </summary>
-public class UpdateAssetDto
+public partial class UpdateAssetDto
 {
   /// <summary>
   /// Original date and time

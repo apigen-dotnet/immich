@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ActivityResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ActivityResponseDto
 /// </summary>
-public class ActivityResponseDto
+public partial class ActivityResponseDto
 {
   /// <summary>
   /// Asset ID (if activity is for an asset)

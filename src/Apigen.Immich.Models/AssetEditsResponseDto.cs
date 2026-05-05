@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetEditsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetEditsResponseDto
 /// </summary>
-public class AssetEditsResponseDto
+public partial class AssetEditsResponseDto
 {
   /// <summary>
   /// Asset ID these edits belong to

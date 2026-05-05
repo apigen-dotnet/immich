@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// APIKeyCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/APIKeyCreateDto
 /// </summary>
-public class ApiKeyCreateDto
+public partial class ApiKeyCreateDto
 {
   /// <summary>
   /// API key name

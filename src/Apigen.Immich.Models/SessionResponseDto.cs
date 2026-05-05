@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SessionResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SessionResponseDto
 /// </summary>
-public class SessionResponseDto
+public partial class SessionResponseDto
 {
   /// <summary>
   /// App version

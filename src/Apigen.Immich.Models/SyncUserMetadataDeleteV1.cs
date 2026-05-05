@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncUserMetadataDeleteV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncUserMetadataDeleteV1
 /// </summary>
-public class SyncUserMetadataDeleteV1
+public partial class SyncUserMetadataDeleteV1
 {
   /// <summary>
   /// User metadata key

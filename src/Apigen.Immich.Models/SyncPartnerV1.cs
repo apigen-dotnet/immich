@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncPartnerV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncPartnerV1
 /// </summary>
-public class SyncPartnerV1
+public partial class SyncPartnerV1
 {
   /// <summary>
   /// In timeline

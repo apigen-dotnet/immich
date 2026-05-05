@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigReverseGeocodingDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigReverseGeocodingDto
 /// </summary>
-public class SystemConfigReverseGeocodingDto
+public partial class SystemConfigReverseGeocodingDto
 {
   /// <summary>
   /// Enabled

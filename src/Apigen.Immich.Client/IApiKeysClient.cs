@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for API keys operations
 /// </summary>
-public interface IApiKeysClient
+public partial interface IApiKeysClient
 {
   /// <summary>
   /// List all API keys

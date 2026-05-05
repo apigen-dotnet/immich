@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Users operations
 /// </summary>
-public interface IUsersClient
+public partial interface IUsersClient
 {
   /// <summary>
   /// Get all users

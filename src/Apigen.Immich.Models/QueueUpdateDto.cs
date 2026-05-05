@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueueUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueueUpdateDto
 /// </summary>
-public class QueueUpdateDto
+public partial class QueueUpdateDto
 {
   /// <summary>
   /// Whether to pause the queue

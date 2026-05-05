@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Get random assets
 /// Operation: GET /assets/random
 /// </summary>
-public class GetRandomRequest : BaseRequest
+public partial class GetRandomRequest : BaseRequest
 {
   /// <summary>
   /// Number of random assets to return

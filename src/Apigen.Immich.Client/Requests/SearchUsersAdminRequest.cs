@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Search users
 /// Operation: GET /admin/users
 /// </summary>
-public class SearchUsersAdminRequest : BaseRequest
+public partial class SearchUsersAdminRequest : BaseRequest
 {
   /// <summary>
   /// User ID filter

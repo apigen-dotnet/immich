@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigLibraryScanDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigLibraryScanDto
 /// </summary>
-public class SystemConfigLibraryScanDto
+public partial class SystemConfigLibraryScanDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("cronExpression")]

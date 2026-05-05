@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SharedLinkResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SharedLinkResponseDto
 /// </summary>
-public class SharedLinkResponseDto
+public partial class SharedLinkResponseDto
 {
   [System.Text.Json.Serialization.JsonPropertyName("album")]
   public AlbumResponseDto? Album { get; set; }

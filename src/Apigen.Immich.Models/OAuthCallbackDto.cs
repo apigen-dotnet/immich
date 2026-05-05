@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// OAuthCallbackDto from OpenAPI schema.
 /// Schema path: #/components/schemas/OAuthCallbackDto
 /// </summary>
-public class OAuthCallbackDto
+public partial class OAuthCallbackDto
 {
   /// <summary>
   /// OAuth code verifier (PKCE)

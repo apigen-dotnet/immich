@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerMediaTypesResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerMediaTypesResponseDto
 /// </summary>
-public class ServerMediaTypesResponseDto
+public partial class ServerMediaTypesResponseDto
 {
   /// <summary>
   /// Supported image MIME types

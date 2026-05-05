@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetBulkUploadCheckDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetBulkUploadCheckDto
 /// </summary>
-public class AssetBulkUploadCheckDto
+public partial class AssetBulkUploadCheckDto
 {
   /// <summary>
   /// Assets to check

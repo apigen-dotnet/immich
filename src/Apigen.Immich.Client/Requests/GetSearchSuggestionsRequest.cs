@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve search suggestions
 /// Operation: GET /search/suggestions
 /// </summary>
-public class GetSearchSuggestionsRequest : BaseRequest
+public partial class GetSearchSuggestionsRequest : BaseRequest
 {
   /// <summary>
   /// Filter by country

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AuthStatusResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AuthStatusResponseDto
 /// </summary>
-public class AuthStatusResponseDto
+public partial class AuthStatusResponseDto
 {
   /// <summary>
   /// Session expiration date

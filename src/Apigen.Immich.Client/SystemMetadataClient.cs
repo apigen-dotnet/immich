@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for System metadata operations
 /// </summary>
-public class SystemMetadataClient
+public partial class SystemMetadataClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

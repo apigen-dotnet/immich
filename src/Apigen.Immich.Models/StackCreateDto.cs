@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// StackCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/StackCreateDto
 /// </summary>
-public class StackCreateDto
+public partial class StackCreateDto
 {
   /// <summary>
   /// Asset IDs (first becomes primary, min 2)

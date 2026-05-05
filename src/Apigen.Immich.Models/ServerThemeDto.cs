@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ServerThemeDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ServerThemeDto
 /// </summary>
-public class ServerThemeDto
+public partial class ServerThemeDto
 {
   /// <summary>
   /// Custom CSS for theming

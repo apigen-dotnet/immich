@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigNewVersionCheckDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigNewVersionCheckDto
 /// </summary>
-public class SystemConfigNewVersionCheckDto
+public partial class SystemConfigNewVersionCheckDto
 {
   /// <summary>
   /// Enabled

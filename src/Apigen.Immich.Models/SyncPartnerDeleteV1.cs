@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncPartnerDeleteV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncPartnerDeleteV1
 /// </summary>
-public class SyncPartnerDeleteV1
+public partial class SyncPartnerDeleteV1
 {
   /// <summary>
   /// Shared by ID

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AvatarUpdate from OpenAPI schema.
 /// Schema path: #/components/schemas/AvatarUpdate
 /// </summary>
-public class AvatarUpdate
+public partial class AvatarUpdate
 {
   /// <summary>
   /// Avatar color

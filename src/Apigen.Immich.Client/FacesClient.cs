@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Faces operations
 /// </summary>
-public class FacesClient
+public partial class FacesClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

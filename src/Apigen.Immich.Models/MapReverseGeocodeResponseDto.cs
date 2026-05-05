@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MapReverseGeocodeResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MapReverseGeocodeResponseDto
 /// </summary>
-public class MapReverseGeocodeResponseDto
+public partial class MapReverseGeocodeResponseDto
 {
   /// <summary>
   /// City name

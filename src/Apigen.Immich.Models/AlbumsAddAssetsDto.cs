@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AlbumsAddAssetsDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AlbumsAddAssetsDto
 /// </summary>
-public class AlbumsAddAssetsDto
+public partial class AlbumsAddAssetsDto
 {
   /// <summary>
   /// Album IDs

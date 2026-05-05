@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SmartSearchDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SmartSearchDto
 /// </summary>
-public class SmartSearchDto
+public partial class SmartSearchDto
 {
   /// <summary>
   /// Filter by album IDs

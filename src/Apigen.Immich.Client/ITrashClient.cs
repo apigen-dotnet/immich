@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Trash operations
 /// </summary>
-public interface ITrashClient
+public partial interface ITrashClient
 {
   /// <summary>
   /// Empty trash

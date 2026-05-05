@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UsageByUserDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UsageByUserDto
 /// </summary>
-public class UsageByUserDto
+public partial class UsageByUserDto
 {
   /// <summary>
   /// Number of photos

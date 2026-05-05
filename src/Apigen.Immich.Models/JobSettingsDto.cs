@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// JobSettingsDto from OpenAPI schema.
 /// Schema path: #/components/schemas/JobSettingsDto
 /// </summary>
-public class JobSettingsDto
+public partial class JobSettingsDto
 {
   /// <summary>
   /// Concurrency

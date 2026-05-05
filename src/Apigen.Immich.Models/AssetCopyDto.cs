@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetCopyDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetCopyDto
 /// </summary>
-public class AssetCopyDto
+public partial class AssetCopyDto
 {
   /// <summary>
   /// Copy album associations

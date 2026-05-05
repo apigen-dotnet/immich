@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UserPreferencesUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UserPreferencesUpdateDto
 /// </summary>
-public class UserPreferencesUpdateDto
+public partial class UserPreferencesUpdateDto
 {
   /// <summary>
   /// Album preferences

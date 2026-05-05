@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// LoginResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/LoginResponseDto
 /// </summary>
-public class LoginResponseDto
+public partial class LoginResponseDto
 {
   /// <summary>
   /// Access token

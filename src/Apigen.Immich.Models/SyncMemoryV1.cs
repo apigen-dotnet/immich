@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncMemoryV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncMemoryV1
 /// </summary>
-public class SyncMemoryV1
+public partial class SyncMemoryV1
 {
   /// <summary>
   /// Created at

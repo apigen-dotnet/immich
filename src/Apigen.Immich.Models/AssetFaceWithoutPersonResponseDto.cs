@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetFaceWithoutPersonResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetFaceWithoutPersonResponseDto
 /// </summary>
-public class AssetFaceWithoutPersonResponseDto
+public partial class AssetFaceWithoutPersonResponseDto
 {
   /// <summary>
   /// Bounding box X1 coordinate

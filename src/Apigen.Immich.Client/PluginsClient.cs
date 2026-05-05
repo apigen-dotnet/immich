@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Plugins operations
 /// </summary>
-public class PluginsClient
+public partial class PluginsClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

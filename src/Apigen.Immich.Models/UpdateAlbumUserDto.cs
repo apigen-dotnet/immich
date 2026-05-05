@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UpdateAlbumUserDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UpdateAlbumUserDto
 /// </summary>
-public class UpdateAlbumUserDto
+public partial class UpdateAlbumUserDto
 {
   /// <summary>
   /// Album user role

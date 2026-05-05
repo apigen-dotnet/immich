@@ -24,6 +24,6 @@ namespace Apigen.Immich.Models;
 /// SyncCompleteV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncCompleteV1
 /// </summary>
-public class SyncCompleteV1
+public partial class SyncCompleteV1
 {
 }

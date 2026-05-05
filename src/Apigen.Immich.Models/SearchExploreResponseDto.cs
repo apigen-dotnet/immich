@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SearchExploreResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SearchExploreResponseDto
 /// </summary>
-public class SearchExploreResponseDto
+public partial class SearchExploreResponseDto
 {
   /// <summary>
   /// Explore field name

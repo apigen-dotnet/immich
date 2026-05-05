@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueueDeleteDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueueDeleteDto
 /// </summary>
-public class QueueDeleteDto
+public partial class QueueDeleteDto
 {
   /// <summary>
   /// If true, will also remove failed jobs from the queue.

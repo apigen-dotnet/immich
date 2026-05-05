@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ValidateLibraryDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ValidateLibraryDto
 /// </summary>
-public class ValidateLibraryDto
+public partial class ValidateLibraryDto
 {
   /// <summary>
   /// Exclusion patterns (max 128)

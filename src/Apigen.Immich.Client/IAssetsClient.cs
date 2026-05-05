@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Assets operations
 /// </summary>
-public interface IAssetsClient
+public partial interface IAssetsClient
 {
   /// <summary>
   /// Delete assets

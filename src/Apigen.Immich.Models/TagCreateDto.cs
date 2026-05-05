@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TagCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TagCreateDto
 /// </summary>
-public class TagCreateDto
+public partial class TagCreateDto
 {
   /// <summary>
   /// Tag color (hex)

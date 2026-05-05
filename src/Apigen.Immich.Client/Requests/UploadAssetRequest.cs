@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Upload asset
 /// Operation: POST /assets
 /// </summary>
-public class UploadAssetRequest : BaseRequest
+public partial class UploadAssetRequest : BaseRequest
 {
   /// <summary>
   /// key

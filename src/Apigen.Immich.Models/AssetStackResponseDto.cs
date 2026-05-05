@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetStackResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetStackResponseDto
 /// </summary>
-public class AssetStackResponseDto
+public partial class AssetStackResponseDto
 {
   /// <summary>
   /// Number of assets in stack

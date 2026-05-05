@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Search places
 /// Operation: GET /search/places
 /// </summary>
-public class SearchPlacesRequest : BaseRequest
+public partial class SearchPlacesRequest : BaseRequest
 {
   /// <summary>
   /// Place name to search for

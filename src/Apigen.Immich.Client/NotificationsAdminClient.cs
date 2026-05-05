@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Notifications (admin) operations
 /// </summary>
-public class NotificationsAdminClient
+public partial class NotificationsAdminClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

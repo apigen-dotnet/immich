@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncMemoryAssetV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncMemoryAssetV1
 /// </summary>
-public class SyncMemoryAssetV1
+public partial class SyncMemoryAssetV1
 {
   /// <summary>
   /// Asset ID

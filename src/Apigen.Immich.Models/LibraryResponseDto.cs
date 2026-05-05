@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// LibraryResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/LibraryResponseDto
 /// </summary>
-public class LibraryResponseDto
+public partial class LibraryResponseDto
 {
   /// <summary>
   /// Number of assets

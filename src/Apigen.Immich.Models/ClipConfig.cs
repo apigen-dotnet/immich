@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CLIPConfig from OpenAPI schema.
 /// Schema path: #/components/schemas/CLIPConfig
 /// </summary>
-public class ClipConfig
+public partial class ClipConfig
 {
   /// <summary>
   /// Whether the task is enabled

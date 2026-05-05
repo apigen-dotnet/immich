@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ValidateLibraryResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ValidateLibraryResponseDto
 /// </summary>
-public class ValidateLibraryResponseDto
+public partial class ValidateLibraryResponseDto
 {
   /// <summary>
   /// Validation results for import paths

@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Views operations
 /// </summary>
-public class ViewsClient
+public partial class ViewsClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

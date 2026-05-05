@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// StackResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/StackResponseDto
 /// </summary>
-public class StackResponseDto
+public partial class StackResponseDto
 {
   /// <summary>
   /// Stack assets

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TrashResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TrashResponseDto
 /// </summary>
-public class TrashResponseDto
+public partial class TrashResponseDto
 {
   /// <summary>
   /// Number of items in trash

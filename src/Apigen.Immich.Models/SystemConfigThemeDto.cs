@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigThemeDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigThemeDto
 /// </summary>
-public class SystemConfigThemeDto
+public partial class SystemConfigThemeDto
 {
   /// <summary>
   /// Custom CSS for theming

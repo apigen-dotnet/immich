@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Shared links operations
 /// </summary>
-public class SharedLinksClient
+public partial class SharedLinksClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

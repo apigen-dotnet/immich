@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Server operations
 /// </summary>
-public interface IServerClient
+public partial interface IServerClient
 {
   /// <summary>
   /// Get server information

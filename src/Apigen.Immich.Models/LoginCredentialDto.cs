@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// LoginCredentialDto from OpenAPI schema.
 /// Schema path: #/components/schemas/LoginCredentialDto
 /// </summary>
-public class LoginCredentialDto
+public partial class LoginCredentialDto
 {
   /// <summary>
   /// User email

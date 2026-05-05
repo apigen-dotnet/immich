@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueueResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueueResponseDto
 /// </summary>
-public class QueueResponseDto
+public partial class QueueResponseDto
 {
   /// <summary>
   /// Whether the queue is paused

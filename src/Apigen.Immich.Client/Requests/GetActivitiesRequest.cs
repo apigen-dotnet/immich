@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for List all activities
 /// Operation: GET /activities
 /// </summary>
-public class GetActivitiesRequest : BaseRequest
+public partial class GetActivitiesRequest : BaseRequest
 {
   /// <summary>
   /// Album ID

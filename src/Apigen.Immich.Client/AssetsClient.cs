@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Assets operations
 /// </summary>
-public class AssetsClient
+public partial class AssetsClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

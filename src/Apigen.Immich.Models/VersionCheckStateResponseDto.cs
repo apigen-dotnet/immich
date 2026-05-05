@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// VersionCheckStateResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/VersionCheckStateResponseDto
 /// </summary>
-public class VersionCheckStateResponseDto
+public partial class VersionCheckStateResponseDto
 {
   /// <summary>
   /// Last check timestamp

@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Authentication (admin) operations
 /// </summary>
-public interface IAuthenticationAdminClient
+public partial interface IAuthenticationAdminClient
 {
   /// <summary>
   /// Unlink all OAuth accounts

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueuesResponseLegacyDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueuesResponseLegacyDto
 /// </summary>
-public class QueuesResponseLegacyDto
+public partial class QueuesResponseLegacyDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("backgroundTask")]

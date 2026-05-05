@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PartnerResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PartnerResponseDto
 /// </summary>
-public class PartnerResponseDto
+public partial class PartnerResponseDto
 {
   /// <summary>
   /// Avatar color

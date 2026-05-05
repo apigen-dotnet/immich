@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Download asset archive
 /// Operation: POST /download/archive
 /// </summary>
-public class DownloadArchiveRequest : BaseRequest
+public partial class DownloadArchiveRequest : BaseRequest
 {
   /// <summary>
   /// key

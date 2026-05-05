@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAssetFaceDeleteV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAssetFaceDeleteV1
 /// </summary>
-public class SyncAssetFaceDeleteV1
+public partial class SyncAssetFaceDeleteV1
 {
   /// <summary>
   /// Asset face ID

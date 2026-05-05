@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetDeltaSyncDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetDeltaSyncDto
 /// </summary>
-public class AssetDeltaSyncDto
+public partial class AssetDeltaSyncDto
 {
   /// <summary>
   /// Sync assets updated after this date

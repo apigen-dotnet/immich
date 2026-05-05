@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetBulkDeleteDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetBulkDeleteDto
 /// </summary>
-public class AssetBulkDeleteDto
+public partial class AssetBulkDeleteDto
 {
   /// <summary>
   /// Force delete even if in use

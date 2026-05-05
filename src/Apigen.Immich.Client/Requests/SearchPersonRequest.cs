@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Search people
 /// Operation: GET /search/person
 /// </summary>
-public class SearchPersonRequest : BaseRequest
+public partial class SearchPersonRequest : BaseRequest
 {
   /// <summary>
   /// Person name to search for

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AddUsersDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AddUsersDto
 /// </summary>
-public class AddUsersDto
+public partial class AddUsersDto
 {
   /// <summary>
   /// Album users to add

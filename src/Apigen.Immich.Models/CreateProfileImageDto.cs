@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CreateProfileImageDto from OpenAPI schema.
 /// Schema path: #/components/schemas/CreateProfileImageDto
 /// </summary>
-public class CreateProfileImageDto
+public partial class CreateProfileImageDto
 {
   /// <summary>
   /// Profile image file

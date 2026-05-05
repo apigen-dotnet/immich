@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve notifications
 /// Operation: GET /notifications
 /// </summary>
-public class GetNotificationsRequest : BaseRequest
+public partial class GetNotificationsRequest : BaseRequest
 {
   /// <summary>
   /// Filter by notification ID

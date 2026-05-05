@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MaintenanceStatusResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MaintenanceStatusResponseDto
 /// </summary>
-public class MaintenanceStatusResponseDto
+public partial class MaintenanceStatusResponseDto
 {
   /// <summary>
   /// Maintenance action

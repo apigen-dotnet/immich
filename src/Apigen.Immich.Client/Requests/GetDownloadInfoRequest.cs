@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve download information
 /// Operation: POST /download/info
 /// </summary>
-public class GetDownloadInfoRequest : BaseRequest
+public partial class GetDownloadInfoRequest : BaseRequest
 {
   /// <summary>
   /// key

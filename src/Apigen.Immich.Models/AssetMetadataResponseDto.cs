@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetMetadataResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetMetadataResponseDto
 /// </summary>
-public class AssetMetadataResponseDto
+public partial class AssetMetadataResponseDto
 {
   /// <summary>
   /// Metadata key

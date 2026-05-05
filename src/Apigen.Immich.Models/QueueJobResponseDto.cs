@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueueJobResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueueJobResponseDto
 /// </summary>
-public class QueueJobResponseDto
+public partial class QueueJobResponseDto
 {
   /// <summary>
   /// Job data payload

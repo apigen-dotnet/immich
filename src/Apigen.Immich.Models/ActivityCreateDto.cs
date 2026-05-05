@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ActivityCreateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ActivityCreateDto
 /// </summary>
-public class ActivityCreateDto
+public partial class ActivityCreateDto
 {
   /// <summary>
   /// Album ID

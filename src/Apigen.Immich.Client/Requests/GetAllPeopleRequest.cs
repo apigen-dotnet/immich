@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Get all people
 /// Operation: GET /people
 /// </summary>
-public class GetAllPeopleRequest : BaseRequest
+public partial class GetAllPeopleRequest : BaseRequest
 {
   /// <summary>
   /// Closest asset ID for similarity search

@@ -24,6 +24,6 @@ namespace Apigen.Immich.Models;
 /// SyncResetV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncResetV1
 /// </summary>
-public class SyncResetV1
+public partial class SyncResetV1
 {
 }

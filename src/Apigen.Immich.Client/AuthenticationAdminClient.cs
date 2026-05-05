@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Authentication (admin) operations
 /// </summary>
-public class AuthenticationAdminClient
+public partial class AuthenticationAdminClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

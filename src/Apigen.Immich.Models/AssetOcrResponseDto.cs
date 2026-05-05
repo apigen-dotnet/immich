@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// AssetOcrResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/AssetOcrResponseDto
 /// </summary>
-public class AssetOcrResponseDto
+public partial class AssetOcrResponseDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("assetId")]

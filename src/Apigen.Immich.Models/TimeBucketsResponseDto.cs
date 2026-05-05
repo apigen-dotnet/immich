@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TimeBucketsResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TimeBucketsResponseDto
 /// </summary>
-public class TimeBucketsResponseDto
+public partial class TimeBucketsResponseDto
 {
   /// <summary>
   /// Number of assets in this time bucket

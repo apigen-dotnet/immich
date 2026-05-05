@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Faces operations
 /// </summary>
-public interface IFacesClient
+public partial interface IFacesClient
 {
   /// <summary>
   /// Retrieve faces for asset

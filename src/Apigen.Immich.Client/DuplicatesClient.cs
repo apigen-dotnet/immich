@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Duplicates operations
 /// </summary>
-public class DuplicatesClient
+public partial class DuplicatesClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

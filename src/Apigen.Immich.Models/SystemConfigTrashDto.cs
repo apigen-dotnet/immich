@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigTrashDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigTrashDto
 /// </summary>
-public class SystemConfigTrashDto
+public partial class SystemConfigTrashDto
 {
   /// <summary>
   /// Days

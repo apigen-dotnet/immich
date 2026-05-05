@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PeopleResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/PeopleResponse
 /// </summary>
-public class PeopleResponse
+public partial class PeopleResponse
 {
   /// <summary>
   /// Whether people are enabled

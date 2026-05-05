@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncUserV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncUserV1
 /// </summary>
-public class SyncUserV1
+public partial class SyncUserV1
 {
   /// <summary>
   /// User avatar color

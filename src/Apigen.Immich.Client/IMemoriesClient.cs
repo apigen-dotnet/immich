@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Memories operations
 /// </summary>
-public interface IMemoriesClient
+public partial interface IMemoriesClient
 {
   /// <summary>
   /// Retrieve memories

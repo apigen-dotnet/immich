@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve map markers
 /// Operation: GET /map/markers
 /// </summary>
-public class GetMapMarkersRequest : BaseRequest
+public partial class GetMapMarkersRequest : BaseRequest
 {
   /// <summary>
   /// Filter assets created after this date

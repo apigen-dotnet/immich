@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve partners
 /// Operation: GET /partners
 /// </summary>
-public class GetPartnersRequest : BaseRequest
+public partial class GetPartnersRequest : BaseRequest
 {
   /// <summary>
   /// Partner direction

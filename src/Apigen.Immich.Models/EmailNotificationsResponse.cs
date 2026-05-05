@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// EmailNotificationsResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/EmailNotificationsResponse
 /// </summary>
-public class EmailNotificationsResponse
+public partial class EmailNotificationsResponse
 {
   /// <summary>
   /// Whether to receive email notifications for album invites

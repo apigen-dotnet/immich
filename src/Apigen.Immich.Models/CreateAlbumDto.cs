@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CreateAlbumDto from OpenAPI schema.
 /// Schema path: #/components/schemas/CreateAlbumDto
 /// </summary>
-public class CreateAlbumDto
+public partial class CreateAlbumDto
 {
   /// <summary>
   /// Album name

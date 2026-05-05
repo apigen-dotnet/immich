@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Replace asset
 /// Operation: PUT /assets/{id}/original
 /// </summary>
-public class ReplaceAssetRequest : BaseRequest
+public partial class ReplaceAssetRequest : BaseRequest
 {
   /// <summary>
   /// key

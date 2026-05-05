@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Tags operations
 /// </summary>
-public interface ITagsClient
+public partial interface ITagsClient
 {
   /// <summary>
   /// Retrieve tags

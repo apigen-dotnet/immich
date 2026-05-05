@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Authentication operations
 /// </summary>
-public interface IAuthenticationClient
+public partial interface IAuthenticationClient
 {
   /// <summary>
   /// Register admin

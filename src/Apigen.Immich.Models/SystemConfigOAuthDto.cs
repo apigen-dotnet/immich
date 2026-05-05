@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigOAuthDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigOAuthDto
 /// </summary>
-public class SystemConfigOAuthDto
+public partial class SystemConfigOAuthDto
 {
   /// <summary>
   /// Auto launch

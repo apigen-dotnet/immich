@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Queues operations
 /// </summary>
-public class QueuesClient
+public partial class QueuesClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

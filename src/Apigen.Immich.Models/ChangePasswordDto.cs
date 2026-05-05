@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// ChangePasswordDto from OpenAPI schema.
 /// Schema path: #/components/schemas/ChangePasswordDto
 /// </summary>
-public class ChangePasswordDto
+public partial class ChangePasswordDto
 {
   /// <summary>
   /// Invalidate all other sessions

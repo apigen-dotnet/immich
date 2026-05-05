@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// PinCodeResetDto from OpenAPI schema.
 /// Schema path: #/components/schemas/PinCodeResetDto
 /// </summary>
-public class PinCodeResetDto
+public partial class PinCodeResetDto
 {
   /// <summary>
   /// User password (required if PIN code is not provided)

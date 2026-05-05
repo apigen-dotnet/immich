@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigMapDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigMapDto
 /// </summary>
-public class SystemConfigMapDto
+public partial class SystemConfigMapDto
 {
   [Required]
   [Url]

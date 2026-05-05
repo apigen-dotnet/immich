@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// UpdateLibraryDto from OpenAPI schema.
 /// Schema path: #/components/schemas/UpdateLibraryDto
 /// </summary>
-public class UpdateLibraryDto
+public partial class UpdateLibraryDto
 {
   /// <summary>
   /// Exclusion patterns (max 128)

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// StatisticsSearchDto from OpenAPI schema.
 /// Schema path: #/components/schemas/StatisticsSearchDto
 /// </summary>
-public class StatisticsSearchDto
+public partial class StatisticsSearchDto
 {
   /// <summary>
   /// Filter by album IDs

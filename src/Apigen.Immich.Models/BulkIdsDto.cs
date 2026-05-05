@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// BulkIdsDto from OpenAPI schema.
 /// Schema path: #/components/schemas/BulkIdsDto
 /// </summary>
-public class BulkIdsDto
+public partial class BulkIdsDto
 {
   /// <summary>
   /// IDs to process

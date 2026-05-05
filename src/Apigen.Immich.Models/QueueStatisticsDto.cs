@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// QueueStatisticsDto from OpenAPI schema.
 /// Schema path: #/components/schemas/QueueStatisticsDto
 /// </summary>
-public class QueueStatisticsDto
+public partial class QueueStatisticsDto
 {
   /// <summary>
   /// Number of active jobs

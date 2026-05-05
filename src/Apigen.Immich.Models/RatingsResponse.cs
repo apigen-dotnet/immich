@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// RatingsResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/RatingsResponse
 /// </summary>
-public class RatingsResponse
+public partial class RatingsResponse
 {
   /// <summary>
   /// Whether ratings are enabled

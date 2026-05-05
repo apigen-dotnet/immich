@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Sessions operations
 /// </summary>
-public interface ISessionsClient
+public partial interface ISessionsClient
 {
   /// <summary>
   /// Delete all sessions

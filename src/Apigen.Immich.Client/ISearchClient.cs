@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Search operations
 /// </summary>
-public interface ISearchClient
+public partial interface ISearchClient
 {
   /// <summary>
   /// Retrieve assets by city

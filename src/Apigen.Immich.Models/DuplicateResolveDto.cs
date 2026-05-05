@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// DuplicateResolveDto from OpenAPI schema.
 /// Schema path: #/components/schemas/DuplicateResolveDto
 /// </summary>
-public class DuplicateResolveDto
+public partial class DuplicateResolveDto
 {
   /// <summary>
   /// List of duplicate groups to resolve

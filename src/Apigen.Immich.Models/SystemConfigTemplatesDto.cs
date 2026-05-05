@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigTemplatesDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigTemplatesDto
 /// </summary>
-public class SystemConfigTemplatesDto
+public partial class SystemConfigTemplatesDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("email")]

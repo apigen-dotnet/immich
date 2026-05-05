@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MaintenanceDetectInstallStorageFolderDto from OpenAPI schema.
 /// Schema path: #/components/schemas/MaintenanceDetectInstallStorageFolderDto
 /// </summary>
-public class MaintenanceDetectInstallStorageFolderDto
+public partial class MaintenanceDetectInstallStorageFolderDto
 {
   /// <summary>
   /// Number of files in the folder

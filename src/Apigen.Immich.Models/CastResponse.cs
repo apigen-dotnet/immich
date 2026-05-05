@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// CastResponse from OpenAPI schema.
 /// Schema path: #/components/schemas/CastResponse
 /// </summary>
-public class CastResponse
+public partial class CastResponse
 {
   /// <summary>
   /// Whether Google Cast is enabled

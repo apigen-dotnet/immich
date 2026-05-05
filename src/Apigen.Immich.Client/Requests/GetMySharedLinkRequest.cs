@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve current shared link
 /// Operation: GET /shared-links/me
 /// </summary>
-public class GetMySharedLinkRequest : BaseRequest
+public partial class GetMySharedLinkRequest : BaseRequest
 {
   /// <summary>
   /// key

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigMachineLearningDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigMachineLearningDto
 /// </summary>
-public class SystemConfigMachineLearningDto
+public partial class SystemConfigMachineLearningDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("availabilityChecks")]

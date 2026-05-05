@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for List all albums
 /// Operation: GET /albums
 /// </summary>
-public class GetAllAlbumsRequest : BaseRequest
+public partial class GetAllAlbumsRequest : BaseRequest
 {
   /// <summary>
   /// Filter albums containing this asset ID (ignores shared parameter)

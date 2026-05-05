@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// FoldersUpdate from OpenAPI schema.
 /// Schema path: #/components/schemas/FoldersUpdate
 /// </summary>
-public class FoldersUpdate
+public partial class FoldersUpdate
 {
   /// <summary>
   /// Whether folders are enabled

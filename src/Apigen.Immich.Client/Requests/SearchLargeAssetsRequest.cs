@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Search large assets
 /// Operation: POST /search/large-assets
 /// </summary>
-public class SearchLargeAssetsRequest : BaseRequest
+public partial class SearchLargeAssetsRequest : BaseRequest
 {
   /// <summary>
   /// Filter by album IDs

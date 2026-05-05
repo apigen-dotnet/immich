@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigSmtpDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigSmtpDto
 /// </summary>
-public class SystemConfigSmtpDto
+public partial class SystemConfigSmtpDto
 {
   /// <summary>
   /// Whether SMTP email notifications are enabled

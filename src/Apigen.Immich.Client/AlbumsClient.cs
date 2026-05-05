@@ -14,7 +14,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Client for Albums operations
 /// </summary>
-public class AlbumsClient
+public partial class AlbumsClient
 {
   private readonly HttpClient _httpClient;
   private readonly ILogger? _logger;

@@ -9,7 +9,7 @@ namespace Apigen.Immich.Client;
 /// <summary>
 /// Interface for Notifications (admin) operations
 /// </summary>
-public interface INotificationsAdminClient
+public partial interface INotificationsAdminClient
 {
   /// <summary>
   /// Create a notification

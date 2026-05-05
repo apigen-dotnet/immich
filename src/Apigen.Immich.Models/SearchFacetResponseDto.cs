@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SearchFacetResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SearchFacetResponseDto
 /// </summary>
-public class SearchFacetResponseDto
+public partial class SearchFacetResponseDto
 {
   /// <summary>
   /// Facet counts

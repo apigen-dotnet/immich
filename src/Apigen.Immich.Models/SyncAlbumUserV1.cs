@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAlbumUserV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAlbumUserV1
 /// </summary>
-public class SyncAlbumUserV1
+public partial class SyncAlbumUserV1
 {
   /// <summary>
   /// Album ID

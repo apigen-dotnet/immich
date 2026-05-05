@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SearchResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SearchResponseDto
 /// </summary>
-public class SearchResponseDto
+public partial class SearchResponseDto
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("albums")]

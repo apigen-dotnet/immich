@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SearchAssetResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SearchAssetResponseDto
 /// </summary>
-public class SearchAssetResponseDto
+public partial class SearchAssetResponseDto
 {
   /// <summary>
   /// Number of assets in this page

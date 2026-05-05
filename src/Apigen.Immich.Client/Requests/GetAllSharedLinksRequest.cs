@@ -11,7 +11,7 @@ namespace Apigen.Immich.Client;
 /// Request parameters for Retrieve all shared links
 /// Operation: GET /shared-links
 /// </summary>
-public class GetAllSharedLinksRequest : BaseRequest
+public partial class GetAllSharedLinksRequest : BaseRequest
 {
   /// <summary>
   /// Filter by album ID

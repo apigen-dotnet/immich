@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// NotificationUpdateAllDto from OpenAPI schema.
 /// Schema path: #/components/schemas/NotificationUpdateAllDto
 /// </summary>
-public class NotificationUpdateAllDto
+public partial class NotificationUpdateAllDto
 {
   /// <summary>
   /// Notification IDs to update

@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SystemConfigFFmpegDto from OpenAPI schema.
 /// Schema path: #/components/schemas/SystemConfigFFmpegDto
 /// </summary>
-public class SystemConfigFFmpegDto
+public partial class SystemConfigFFmpegDto
 {
   /// <summary>
   /// Transcode hardware acceleration

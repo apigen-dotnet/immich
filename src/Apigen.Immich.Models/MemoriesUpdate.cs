@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// MemoriesUpdate from OpenAPI schema.
 /// Schema path: #/components/schemas/MemoriesUpdate
 /// </summary>
-public class MemoriesUpdate
+public partial class MemoriesUpdate
 {
   /// <summary>
   /// Memory duration in seconds

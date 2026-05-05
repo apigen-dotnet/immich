@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// OAuthAuthorizeResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/OAuthAuthorizeResponseDto
 /// </summary>
-public class OAuthAuthorizeResponseDto
+public partial class OAuthAuthorizeResponseDto
 {
   /// <summary>
   /// OAuth authorization URL

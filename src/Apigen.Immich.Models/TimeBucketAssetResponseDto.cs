@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TimeBucketAssetResponseDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TimeBucketAssetResponseDto
 /// </summary>
-public class TimeBucketAssetResponseDto
+public partial class TimeBucketAssetResponseDto
 {
   /// <summary>
   /// Array of city names extracted from EXIF GPS data

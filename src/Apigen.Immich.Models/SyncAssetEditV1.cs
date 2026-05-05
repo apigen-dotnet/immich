@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// SyncAssetEditV1 from OpenAPI schema.
 /// Schema path: #/components/schemas/SyncAssetEditV1
 /// </summary>
-public class SyncAssetEditV1
+public partial class SyncAssetEditV1
 {
   [Required]
   [System.Text.Json.Serialization.JsonPropertyName("action")]

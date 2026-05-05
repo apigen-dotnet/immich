@@ -24,7 +24,7 @@ namespace Apigen.Immich.Models;
 /// TagUpdateDto from OpenAPI schema.
 /// Schema path: #/components/schemas/TagUpdateDto
 /// </summary>
-public class TagUpdateDto
+public partial class TagUpdateDto
 {
   /// <summary>
   /// Tag color (hex)
