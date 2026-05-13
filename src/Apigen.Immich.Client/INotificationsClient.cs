@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,36 +16,36 @@ public partial interface INotificationsClient
   /// Delete notifications
   /// Operation: DELETE /notifications
   /// </summary>
-  Task DeleteNotificationsAsync(Apigen.Immich.Models.NotificationDeleteAllDto notificationDeleteAllDto);
+  Task DeleteNotificationsAsync(Apigen.Immich.Models.NotificationDeleteAllDto notificationDeleteAllDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Retrieve notifications
   /// Operation: GET /notifications
   /// </summary>
-  Task<List<NotificationDto>> GetNotificationsAsync(GetNotificationsRequest? request = null);
+  Task<List<NotificationDto>> GetNotificationsAsync(GetNotificationsRequest? request = null, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Update notifications
   /// Operation: PUT /notifications
   /// </summary>
-  Task UpdateNotificationsAsync(Apigen.Immich.Models.NotificationUpdateAllDto notificationUpdateAllDto);
+  Task UpdateNotificationsAsync(Apigen.Immich.Models.NotificationUpdateAllDto notificationUpdateAllDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Delete a notification
   /// Operation: DELETE /notifications/{id}
   /// </summary>
-  Task DeleteAsync(string id);
+  Task DeleteAsync(string id, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Get a notification
   /// Operation: GET /notifications/{id}
   /// </summary>
-  Task<NotificationDto> GetAsync(string id);
+  Task<NotificationDto> GetAsync(string id, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Update a notification
   /// Operation: PUT /notifications/{id}
   /// </summary>
-  Task<NotificationDto> UpdateAsync(string id, Apigen.Immich.Models.NotificationUpdateDto notificationUpdateDto);
+  Task<NotificationDto> UpdateAsync(string id, Apigen.Immich.Models.NotificationUpdateDto notificationUpdateDto, CancellationToken cancellationToken = default);
 
 }

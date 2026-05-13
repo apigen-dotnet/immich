@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,12 +16,12 @@ public partial interface IViewsClient
   /// Retrieve assets by original path
   /// Operation: GET /view/folder
   /// </summary>
-  Task<List<AssetResponseDto>> GetAssetsByOriginalPathAsync(GetAssetsByOriginalPathRequest? request = null);
+  Task<List<AssetResponseDto>> GetAssetsByOriginalPathAsync(GetAssetsByOriginalPathRequest? request = null, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Retrieve unique paths
   /// Operation: GET /view/folder/unique-paths
   /// </summary>
-  Task<JsonElement> GetUniqueOriginalPathsAsync();
+  Task<JsonElement> GetUniqueOriginalPathsAsync(CancellationToken cancellationToken = default);
 
 }

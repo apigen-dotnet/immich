@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,18 +16,18 @@ public partial interface IPluginsClient
   /// List all plugins
   /// Operation: GET /plugins
   /// </summary>
-  Task<List<PluginResponseDto>> GetPluginsAsync();
+  Task<List<PluginResponseDto>> GetPluginsAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// List all plugin triggers
   /// Operation: GET /plugins/triggers
   /// </summary>
-  Task<List<PluginTriggerResponseDto>> GetPluginTriggersAsync();
+  Task<List<PluginTriggerResponseDto>> GetPluginTriggersAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Retrieve a plugin
   /// Operation: GET /plugins/{id}
   /// </summary>
-  Task<PluginResponseDto> GetAsync(string id);
+  Task<PluginResponseDto> GetAsync(string id, CancellationToken cancellationToken = default);
 
 }

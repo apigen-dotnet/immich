@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,30 +16,30 @@ public partial interface IWorkflowsClient
   /// List all workflows
   /// Operation: GET /workflows
   /// </summary>
-  Task<List<WorkflowResponseDto>> GetWorkflowsAsync();
+  Task<List<WorkflowResponseDto>> GetWorkflowsAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Create a workflow
   /// Operation: POST /workflows
   /// </summary>
-  Task<WorkflowResponseDto> CreateAsync(Apigen.Immich.Models.WorkflowCreateDto workflowCreateDto);
+  Task<WorkflowResponseDto> CreateAsync(Apigen.Immich.Models.WorkflowCreateDto workflowCreateDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Delete a workflow
   /// Operation: DELETE /workflows/{id}
   /// </summary>
-  Task DeleteAsync(string id);
+  Task DeleteAsync(string id, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Retrieve a workflow
   /// Operation: GET /workflows/{id}
   /// </summary>
-  Task<WorkflowResponseDto> GetAsync(string id);
+  Task<WorkflowResponseDto> GetAsync(string id, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Update a workflow
   /// Operation: PUT /workflows/{id}
   /// </summary>
-  Task<WorkflowResponseDto> UpdateAsync(string id, Apigen.Immich.Models.WorkflowUpdateDto workflowUpdateDto);
+  Task<WorkflowResponseDto> UpdateAsync(string id, Apigen.Immich.Models.WorkflowUpdateDto workflowUpdateDto, CancellationToken cancellationToken = default);
 
 }

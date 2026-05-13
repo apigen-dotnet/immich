@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,6 +16,6 @@ public partial interface IAuthenticationAdminClient
   /// Unlink all OAuth accounts
   /// Operation: POST /admin/auth/unlink-all
   /// </summary>
-  Task UnlinkAllOAuthAccountsAdminAsync();
+  Task UnlinkAllOAuthAccountsAdminAsync(CancellationToken cancellationToken = default);
 
 }

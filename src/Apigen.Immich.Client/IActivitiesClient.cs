@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,24 +16,24 @@ public partial interface IActivitiesClient
   /// List all activities
   /// Operation: GET /activities
   /// </summary>
-  Task<List<ActivityResponseDto>> GetActivitiesAsync(GetActivitiesRequest? request = null);
+  Task<List<ActivityResponseDto>> GetActivitiesAsync(GetActivitiesRequest? request = null, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Create an activity
   /// Operation: POST /activities
   /// </summary>
-  Task<ActivityResponseDto> CreateActivityAsync(Apigen.Immich.Models.ActivityCreateDto activityCreateDto);
+  Task<ActivityResponseDto> CreateActivityAsync(Apigen.Immich.Models.ActivityCreateDto activityCreateDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Retrieve activity statistics
   /// Operation: GET /activities/statistics
   /// </summary>
-  Task<ActivityStatisticsResponseDto> GetActivityStatisticsAsync(GetActivityStatisticsRequest? request = null);
+  Task<ActivityStatisticsResponseDto> GetActivityStatisticsAsync(GetActivityStatisticsRequest? request = null, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Delete an activity
   /// Operation: DELETE /activities/{id}
   /// </summary>
-  Task DeleteAsync(string id);
+  Task DeleteAsync(string id, CancellationToken cancellationToken = default);
 
 }

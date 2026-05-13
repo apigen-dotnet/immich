@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,12 +16,12 @@ public partial interface IMapClient
   /// Retrieve map markers
   /// Operation: GET /map/markers
   /// </summary>
-  Task<List<MapMarkerResponseDto>> GetMapMarkersAsync(GetMapMarkersRequest? request = null);
+  Task<List<MapMarkerResponseDto>> GetMapMarkersAsync(GetMapMarkersRequest? request = null, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Reverse geocode coordinates
   /// Operation: GET /map/reverse-geocode
   /// </summary>
-  Task<List<MapReverseGeocodeResponseDto>> ReverseGeocodeAsync(ReverseGeocodeRequest? request = null);
+  Task<List<MapReverseGeocodeResponseDto>> ReverseGeocodeAsync(ReverseGeocodeRequest? request = null, CancellationToken cancellationToken = default);
 
 }

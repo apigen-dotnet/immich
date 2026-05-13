@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,18 +16,18 @@ public partial interface ITrashClient
   /// Empty trash
   /// Operation: POST /trash/empty
   /// </summary>
-  Task<TrashResponseDto> EmptyTrashAsync();
+  Task<TrashResponseDto> EmptyTrashAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Restore trash
   /// Operation: POST /trash/restore
   /// </summary>
-  Task<TrashResponseDto> RestoreTrashAsync();
+  Task<TrashResponseDto> RestoreTrashAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Restore assets
   /// Operation: POST /trash/restore/assets
   /// </summary>
-  Task<TrashResponseDto> RestoreAssetsAsync(Apigen.Immich.Models.BulkIdsDto bulkIdsDto);
+  Task<TrashResponseDto> RestoreAssetsAsync(Apigen.Immich.Models.BulkIdsDto bulkIdsDto, CancellationToken cancellationToken = default);
 
 }

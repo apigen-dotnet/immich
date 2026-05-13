@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,24 +16,24 @@ public partial interface IFacesClient
   /// Retrieve faces for asset
   /// Operation: GET /faces
   /// </summary>
-  Task<List<AssetFaceResponseDto>> GetFacesAsync(GetFacesRequest? request = null);
+  Task<List<AssetFaceResponseDto>> GetFacesAsync(GetFacesRequest? request = null, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Create a face
   /// Operation: POST /faces
   /// </summary>
-  Task CreateAsync(Apigen.Immich.Models.AssetFaceCreateDto assetFaceCreateDto);
+  Task CreateAsync(Apigen.Immich.Models.AssetFaceCreateDto assetFaceCreateDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Delete a face
   /// Operation: DELETE /faces/{id}
   /// </summary>
-  Task DeleteAsync(string id, Apigen.Immich.Models.AssetFaceDeleteDto assetFaceDeleteDto);
+  Task DeleteAsync(string id, Apigen.Immich.Models.AssetFaceDeleteDto assetFaceDeleteDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Re-assign a face to another person
   /// Operation: PUT /faces/{id}
   /// </summary>
-  Task<PersonResponseDto> UpdateAsync(string id, Apigen.Immich.Models.FaceDto faceDto);
+  Task<PersonResponseDto> UpdateAsync(string id, Apigen.Immich.Models.FaceDto faceDto, CancellationToken cancellationToken = default);
 
 }

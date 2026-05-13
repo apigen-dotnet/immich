@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,30 +16,30 @@ public partial interface IPartnersClient
   /// Retrieve partners
   /// Operation: GET /partners
   /// </summary>
-  Task<List<PartnerResponseDto>> GetPartnersAsync(GetPartnersRequest? request = null);
+  Task<List<PartnerResponseDto>> GetPartnersAsync(GetPartnersRequest? request = null, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Create a partner
   /// Operation: POST /partners
   /// </summary>
-  Task<PartnerResponseDto> CreateAsync(Apigen.Immich.Models.PartnerCreateDto partnerCreateDto);
+  Task<PartnerResponseDto> CreateAsync(Apigen.Immich.Models.PartnerCreateDto partnerCreateDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Remove a partner
   /// Operation: DELETE /partners/{id}
   /// </summary>
-  Task DeleteAsync(string id);
+  Task DeleteAsync(string id, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Create a partner
   /// Operation: POST /partners/{id}
   /// </summary>
-  Task<PartnerResponseDto> CreatePartnerDeprecatedAsync(string id);
+  Task<PartnerResponseDto> CreatePartnerDeprecatedAsync(string id, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Update a partner
   /// Operation: PUT /partners/{id}
   /// </summary>
-  Task<PartnerResponseDto> UpdateAsync(string id, Apigen.Immich.Models.PartnerUpdateDto partnerUpdateDto);
+  Task<PartnerResponseDto> UpdateAsync(string id, Apigen.Immich.Models.PartnerUpdateDto partnerUpdateDto, CancellationToken cancellationToken = default);
 
 }

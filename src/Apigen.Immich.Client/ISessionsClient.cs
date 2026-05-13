@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,36 +16,36 @@ public partial interface ISessionsClient
   /// Delete all sessions
   /// Operation: DELETE /sessions
   /// </summary>
-  Task DeleteAllSessionsAsync();
+  Task DeleteAllSessionsAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Retrieve sessions
   /// Operation: GET /sessions
   /// </summary>
-  Task<List<SessionResponseDto>> GetSessionsAsync();
+  Task<List<SessionResponseDto>> GetSessionsAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Create a session
   /// Operation: POST /sessions
   /// </summary>
-  Task<SessionCreateResponseDto> CreateAsync(Apigen.Immich.Models.SessionCreateDto sessionCreateDto);
+  Task<SessionCreateResponseDto> CreateAsync(Apigen.Immich.Models.SessionCreateDto sessionCreateDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Delete a session
   /// Operation: DELETE /sessions/{id}
   /// </summary>
-  Task DeleteAsync(string id);
+  Task DeleteAsync(string id, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Update a session
   /// Operation: PUT /sessions/{id}
   /// </summary>
-  Task<SessionResponseDto> UpdateAsync(string id, Apigen.Immich.Models.SessionUpdateDto sessionUpdateDto);
+  Task<SessionResponseDto> UpdateAsync(string id, Apigen.Immich.Models.SessionUpdateDto sessionUpdateDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Lock a session
   /// Operation: POST /sessions/{id}/lock
   /// </summary>
-  Task LockSessionAsync(string id);
+  Task LockSessionAsync(string id, CancellationToken cancellationToken = default);
 
 }

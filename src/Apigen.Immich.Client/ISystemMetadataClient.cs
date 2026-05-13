@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,24 +16,24 @@ public partial interface ISystemMetadataClient
   /// Retrieve admin onboarding
   /// Operation: GET /system-metadata/admin-onboarding
   /// </summary>
-  Task<AdminOnboardingUpdateDto> GetAdminOnboardingAsync();
+  Task<AdminOnboardingUpdateDto> GetAdminOnboardingAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Update admin onboarding
   /// Operation: POST /system-metadata/admin-onboarding
   /// </summary>
-  Task UpdateAdminOnboardingAsync(Apigen.Immich.Models.AdminOnboardingUpdateDto adminOnboardingUpdateDto);
+  Task UpdateAdminOnboardingAsync(Apigen.Immich.Models.AdminOnboardingUpdateDto adminOnboardingUpdateDto, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Retrieve reverse geocoding state
   /// Operation: GET /system-metadata/reverse-geocoding-state
   /// </summary>
-  Task<ReverseGeocodingStateResponseDto> GetReverseGeocodingStateAsync();
+  Task<ReverseGeocodingStateResponseDto> GetReverseGeocodingStateAsync(CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Retrieve version check state
   /// Operation: GET /system-metadata/version-check-state
   /// </summary>
-  Task<VersionCheckStateResponseDto> GetVersionCheckStateAsync();
+  Task<VersionCheckStateResponseDto> GetVersionCheckStateAsync(CancellationToken cancellationToken = default);
 
 }

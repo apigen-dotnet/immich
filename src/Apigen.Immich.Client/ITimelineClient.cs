@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Apigen.Immich.Models;
 
@@ -15,12 +16,12 @@ public partial interface ITimelineClient
   /// Get time bucket
   /// Operation: GET /timeline/bucket
   /// </summary>
-  Task<TimeBucketAssetResponseDto> GetTimeBucketAsync(GetTimeBucketRequest? request = null);
+  Task<TimeBucketAssetResponseDto> GetTimeBucketAsync(GetTimeBucketRequest? request = null, CancellationToken cancellationToken = default);
 
   /// <summary>
   /// Get time buckets
   /// Operation: GET /timeline/buckets
   /// </summary>
-  Task<List<TimeBucketsResponseDto>> GetTimeBucketsAsync(GetTimeBucketsRequest? request = null);
+  Task<List<TimeBucketsResponseDto>> GetTimeBucketsAsync(GetTimeBucketsRequest? request = null, CancellationToken cancellationToken = default);
 
 }
