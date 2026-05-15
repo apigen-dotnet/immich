@@ -38,7 +38,11 @@ public partial class AssetsClient
     {
       long startTimestamp = System.Diagnostics.Stopwatch.GetTimestamp();
       HttpClientLog.LogDebugRequestStarted(_logger, "DELETE", url);
-      HttpResponseMessage response = await _httpClient.DeleteAsync(url, cancellationToken);
+      string json = JsonSerializer.Serialize(assetBulkDeleteDto, JsonConfig.Default);
+      HttpClientLog.LogTraceRequestBody(_logger, "DELETE", "application/json", json);
+      StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+      HttpRequestMessage httpRequest = new HttpRequestMessage(HttpMethod.Delete, url) { Content = content };
+      HttpResponseMessage response = await _httpClient.SendAsync(httpRequest, cancellationToken);
       long durationMs = (long)System.Diagnostics.Stopwatch.GetElapsedTime(startTimestamp).TotalMilliseconds;
       HttpClientLog.LogDebugRequestCompleted(_logger, (int)response.StatusCode, "DELETE", url, durationMs);
 
@@ -411,7 +415,11 @@ public partial class AssetsClient
     {
       long startTimestamp = System.Diagnostics.Stopwatch.GetTimestamp();
       HttpClientLog.LogDebugRequestStarted(_logger, "DELETE", url);
-      HttpResponseMessage response = await _httpClient.DeleteAsync(url, cancellationToken);
+      string json = JsonSerializer.Serialize(assetMetadataBulkDeleteDto, JsonConfig.Default);
+      HttpClientLog.LogTraceRequestBody(_logger, "DELETE", "application/json", json);
+      StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+      HttpRequestMessage httpRequest = new HttpRequestMessage(HttpMethod.Delete, url) { Content = content };
+      HttpResponseMessage response = await _httpClient.SendAsync(httpRequest, cancellationToken);
       long durationMs = (long)System.Diagnostics.Stopwatch.GetElapsedTime(startTimestamp).TotalMilliseconds;
       HttpClientLog.LogDebugRequestCompleted(_logger, (int)response.StatusCode, "DELETE", url, durationMs);
 
